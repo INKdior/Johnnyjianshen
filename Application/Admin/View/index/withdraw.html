@@ -1,0 +1,62 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">订单表</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <br>
+    <!-- <div class="add_cp"> -->
+    <!-- </div> -->
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>用户</td>
+                <td>申请提现时间</td>
+                <td>提现操作时间</td>
+                <td>提现金额</td>
+                <td>提现后余额</td>
+                <td>提现状态</td>
+                <td>提现</td>
+            </tr>
+            <volist name="data" id="vo">
+                <tr>     
+                    <td>{$vo['wxname']}</td>
+                    <td>{$vo['apply_time']}</td>
+                    <td>{$vo['time']}</td>
+                    <td>{$vo['money']}</td>
+                    <td>{$vo['rest_money']}</td>            
+                    <td><?php echo $vo['state'] == '0' ? '申请提现' : '提现成功'?></td>
+                    <td>
+                        <center><button class="btn btn-default btn-sm">提现</button></center>
+                    </td>
+                    <input type="hidden" name="id" value="{$vo['id']}" />
+                </tr>
+           </volist>
+        </table>
+       <!-- <div class="pagelist">{$page}</div> -->
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+    $('button').click(function() {
+        var id = $(this).parents('td').next().val();
+        if(confirm('是否已完成提现操作！')) {
+            $.ajax({
+            	url: "{:U('admin/index/withdraw_money')}",
+            	dataType: 'json',
+            	type: 'get',
+            	data: {'id':id},
+            	success: function(data) {
+                    if(data == 'success') {
+                		alert('修改成功');
+                    }
+            	}
+            })
+        }
+    })
+</script>

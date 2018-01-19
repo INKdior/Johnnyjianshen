@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		.ralation {
+			height: 1rem;
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			padding-top: .1rem;
+			z-index: 999;
+			background: #000;
+			line-height: .5rem;
+		}
+		
+		
+		.ralation-box .text-center {
+			color: #FFFFFF;
+			font-size: .16rem;
+		}
+		
+		.img-icon {
+			width: 25%;
+			margin: 0 auto;
+		}
+		
+		.img-icon img {
+			width: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+	</style>
+
+	<body>
+		<div class="container ralation">
+			<div class="row ralation-box">
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<a href="{:U('index/main')}">
+						<p class="img-icon">
+							<img src="__PUBLIC__/home/img/<?=($flag=='main')? 'b1.png' : 'h1.png'?>">
+						</p>
+						<p class="text-center" id="main">首页</p>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4 my">
+					<a href="{:U('index/personal_center')}">
+						<p class="img-icon">
+							<img src="__PUBLIC__/home/img/<?=($flag=='personal')? 'h2.png' : 'b2.png'?>">
+						</p>
+						<p class="text-center">我的</p>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-4 about-my">
+					<a href="{:U('index/about_us')}">
+						<p class="img-icon">
+							<img src="__PUBLIC__/home/img/<?=($flag=='about_us')? 'b4.png' : 'b3.png'?>">
+						</p>
+						<p class="text-center">关于我们</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

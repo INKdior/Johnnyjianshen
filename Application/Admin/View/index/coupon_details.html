@@ -1,0 +1,175 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul>
+</div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/add_coupon')}" onsubmit="" id='subform' enctype="multipart/form-data">
+            <input  type="hidden" id="id" name="id"  value="">
+            <table>
+                <tr>
+                    <td width="5%">优惠券名称：</td>  
+                    <td width="5%"><input id="couponName" name="coupon_name" type="text" value=""></td>
+                </tr>       
+                <tr>
+                    <td width="5%">优惠券描述：</td>
+                    <td width="80%"><input id="details" name="details" type="text"></td> 
+                </tr>
+                <tr>
+                    <td width="20%">图片：<br><label>(规格：337x232)</label></td>  
+                    <td width="80%">  
+                        <img width='150px' style="float:left;margin:10px;" height='100px' src="__PUBLIC__/img/photo.gif">
+                        <input type="button" style="width:10%;margin-top: 70px" class="btn btn-sm" id="file" value="选择文件"/>
+                        <input id="uploadFile" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" name="imgurl" >
+                    </td>
+                </tr>
+<!--                 <tr >
+                    <td width="5%">价格上限：</td>  
+                    <td width="5%"><input id="value" name="value" type="text" value=""></td>
+                </tr>  -->
+                <tr >
+                    <td width="5%">优惠券描述：</td>  
+                    <td width="5%"><input id="coupon_info" name="coupon_info" type="text" value=""></td>
+                </tr> 
+                <tr >
+                    <td width="5%">优惠券分享方式：</td>  
+                    <td width="80%">
+                        <select id="stage" name="stage">
+                            <option value="1">分享所有人</option>
+                            <option value="0">新人立即领取</option>
+                        </select> 
+                    </td>
+                </tr> 
+                <tr >
+                    <td width="5%">红包类型：</td>  
+                    <td width="80%">
+                        <select id="type" name="type">
+                            <option value="0">固定金额</option>
+                            <option value="1">随机金额</option>
+                            <option value="2">满减</option>
+                        </select> 
+                    </td>
+                </tr> 
+                <tr>
+                    <td width="20%">状态：</td>  
+                    <td width="80%">
+                        <select id="status" name="status">
+                            <option value="N">使用中</option>
+                            <option value="D">已作废</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td width="20%">截止期限：</td>  
+                    <td width="80%"><input id="deadline" name="deadline" type="text" value=""></td>
+                </tr>
+                <td colspan="2" align="center" valign="middle" >
+                    <input class="btn btn-primary btn-sm" id="sub" style="width:6%;" type="button" value="提交" />
+                </td>
+            </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    var data = '<?=json_encode($data)?>';
+    data = JSON.parse(data);
+    laydate.render({
+        elem: '#deadline',
+    })
+    $('#type').on('change', function() {
+        type($(this).val());
+    })
+    function type(flag) {
+        $('#input').remove();
+        if(flag == '0') {
+            var append = '<div id="input"><label style="float:left">请输入金额</label><p style="float:left"><input style="width:80%" type="text" name="value"></p></div>';
+        } else if(flag == '1') {
+            var append = '<div id="input"><label style="float:left">下限</label><p style="float:left"><input style="width:80%" type="text" name="down"></p>'
+                       + '<label style="float:left">上限</label><p style="float:left"><input style="width:80%" type="text" name="up"></p></div>';
+        } else if(flag == '2') {
+            var append = '<div id="input"><label style="float:left">满</label><p style="float:left"><input style="width:90%" type="text" name="reach"></p>'
+                       + '<label style="float:left">减</label><p style="float:left"><input style="width:90%" type="text" name="value"></p></div>';
+        }
+        $('#type').after(append);
+    }
+    if(data != null) {
+        var status = data.status;
+        $('#id').val(data.id);
+        $('#couponName').val(data.coupon_name);
+        $('img').attr('src',data.imgurl);
+        $('#filePath').val(data.imgurl);
+        $('#details').val(data.details);
+        $('#value').val(data.value);
+        $('#deadline').val(data.deadline);
+        $('#stage').val(data.stage);
+        $('#coupon_info').val(data.coupon_info);
+        $('#type').val(data.type);
+        type(data.type);
+        if(data.type == '0') {
+            $('#input').find('[name="value"]').val(data.value);
+        } else if(data.type == '1') {
+            $('#input').find('[name="down"]').val(data.down);
+            $('#input').find('[name="up"]').val(data.up);
+        } else if(data.type == '2') {
+            $('#input').find('[name="reach"]').val(data.reach);
+            $('#input').find('[name="value"]').val(data.value);
+        }
+        if(status == 'N') {
+            $('#status').val('N');
+        } else {
+            $('#status').val('D');
+        }
+    } else {
+        var append = '<div id="input"><label style="float:left">请输入金额</label><p style="float:left"><input style="width:80%" type="text" name="value"></p></div>';
+        $('#type').after(append);
+    }
+    function check() {
+        var type = $('#input').val();
+        if(type == '0') {
+            var value = $('[name="value"]').val();
+        } else if(type == '1') {
+            var up = $('[name="up"]').val();
+            var down = $('[name="down"]').val();
+            if(up < down) {
+                alert('下限金额不能大于上限金额！');
+                return false;
+            }
+        } else if(type == '2') {
+            var value = $('[name="value"]').val();
+            var reach = $('[name="reach"]').val();
+            if(value > reach) {
+                alert('满减金额不符！');
+                return false;
+            }
+        }
+        return true;
+    }
+    $('#sub').click(function() {
+        var deadline = $('#deadline').val();
+        var value = $('#value').val();
+        if(check()) {
+            if(deadline == '') {
+                alert('截止日期不能为空');
+            } else if(value == "0") {
+                alert('价格上限不能为空');
+            } else {
+                $('form').submit();
+            }
+        }
+    })
+
+
+</script>
+
+
+
+

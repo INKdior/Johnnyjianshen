@@ -1,0 +1,616 @@
+[ 2017-11-17T18:38:32+08:00 ] 61.151.178.170 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012680s ]
+
+[ 2017-11-17T18:38:39+08:00 ] 61.151.178.170 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0687s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '1234') AND (`pwd` = '81dc9bdb52d04dc20036dbd8313ed055') ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `delivery` WHERE ( (`account` = '1234') AND (`password` = '81dc9bdb52d04dc20036dbd8313ed055') ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-11-17T18:38:39+08:00 ] 61.151.178.170 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-11-17T18:38:45+08:00 ] 61.151.178.170 /index.php/admin/index/warn_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LEFT JOIN order_state ON `order`.order_id = order_state.order_id  WHERE ( DATEDIFF(order_state.xd_time,"2017-11-17") <= 2  AND order.state = 2 ) LIMIT 1   [ RunTime:0.0236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-11-17T18:38:49+08:00 ] 120.204.17.71 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: name C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined index: password C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = null) AND (`pwd` = 'd41d8cd98f00b204e9800998ecf8427e') ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `delivery` WHERE ( (`account` = null) AND (`password` = 'd41d8cd98f00b204e9800998ecf8427e') ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-11-17T18:38:49+08:00 ] 58.247.212.98 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-11-17T18:38:57+08:00 ] 61.151.178.170 /index.php/admin/index/delivery_admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `delivery` WHERE ( id = 2 AND account = "1234" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0090s ]
+SQL: SELECT `order`.*,delivery.name,delivery.phone FROM `order` LEFT JOIN delivery ON delivery.id = order.delivery_id  WHERE ( delivery_id = 2 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: wxname C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\ea886abf5f9db7f6d6aff1bd9fce32c8.php 第 387 行.
+NOTIC: [8] Undefined index: wxname C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\ea886abf5f9db7f6d6aff1bd9fce32c8.php 第 387 行.
+NOTIC: [8] Undefined index: wxname C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\ea886abf5f9db7f6d6aff1bd9fce32c8.php 第 387 行.
+NOTIC: [8] Undefined index: wxname C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\ea886abf5f9db7f6d6aff1bd9fce32c8.php 第 387 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\ea886abf5f9db7f6d6aff1bd9fce32c8.php 第 400 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.161837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-11-17T18:39:04+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0132s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1506742395" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1506742395' WHERE ( order_id = "1506742395" ) [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-11-17T18:39:14+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0170s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1507516795" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507516795' WHERE ( order_id = "1507516795" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-11-17T18:39:22+08:00 ] 61.151.178.170 /index.php/admin/index/warn_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LEFT JOIN order_state ON `order`.order_id = order_state.order_id  WHERE ( DATEDIFF(order_state.xd_time,"2017-11-17") <= 2  AND order.state = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-11-17T18:39:28+08:00 ] 61.151.178.170 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-11-17T18:39:58+08:00 ] 61.151.178.170 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = 'admin') AND (`pwd` = 'e10adc3949ba59abbe56e057f20f883e') ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-11-17T18:39:58+08:00 ] 61.151.178.170 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-11-17T18:39:59+08:00 ] 61.151.178.170 /index.php/admin/index/warn_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LEFT JOIN order_state ON `order`.order_id = order_state.order_id  WHERE ( DATEDIFF(order_state.xd_time,"2017-11-17") <= 2  AND order.state = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-11-17T18:40:17+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = 0  ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = 0  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = 0  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parameter C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 201 行.
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = 0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 464 行.
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 482 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-11-17T18:40:23+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html?start=&end=&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0014s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0008s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0008s ]
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = "1" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-11-17T18:40:27+08:00 ] 120.204.17.46 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0075s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+
+[ 2017-11-17T18:40:33+08:00 ] 120.204.17.46 /index.php/Admin/index/order.html?start=&end=&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+
+[ 2017-11-17T18:40:38+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0115s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1510745982" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1510745982' WHERE ( order_id = "1510745982" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-11-17T18:40:45+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html?start=&end=&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = "1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-11-17T18:40:56+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1509606517" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1509606517' WHERE ( order_id = "1509606517" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-11-17T18:41:04+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0120s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1506743910" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1506743910' WHERE ( order_id = "1506743910" ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-11-17T18:41:10+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0125s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1506863973' WHERE ( order_id = "1506863973" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-11-17T18:41:20+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0126s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1507602539" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507602539' WHERE ( order_id = "1507602539" ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-11-17T18:41:28+08:00 ] 61.151.178.170 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SELECT `user` FROM `order` WHERE ( order_id = "1509343674" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1509343674' WHERE ( order_id = "1509343674" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-11-17T18:41:33+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html?start=&end=&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "1" ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = "1" )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-11-17T18:41:38+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html?start=&end=&state=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "2" ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0009s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "2" ) ORDER BY or_time desc  [ RunTime:0.0007s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "2" ) ORDER BY or_time desc  [ RunTime:0.0008s ]
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = "2" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-11-17T18:41:47+08:00 ] 61.151.178.170 /index.php/admin/index/deliverylist.html?order_id=1510745982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `delivery` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `delivery` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'p' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Think\Page.class.php 第 81 行.
+SQL: SELECT delivery.name,delivery.phone,delivery.id,delivery.data_state,order.order_id,order.state FROM `delivery` LEFT JOIN `order` ON delivery.id = order.delivery_id  LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 376 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 378 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 379 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 380 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant data_state - assumed 'data_state' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 383 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 384 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 376 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 378 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 379 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 380 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant data_state - assumed 'data_state' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 383 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 384 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 376 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 378 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 379 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 380 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant data_state - assumed 'data_state' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 381 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 383 行.
+NOTIC: [8] Use of undefined constant delivery - assumed 'delivery' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\b3cd7b6b95b1e984f1c92d47474f9b22.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-11-17T18:41:48+08:00 ] 120.204.17.70 /index.php/Admin/index/order.html?start=&end=&state=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0072s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+
+[ 2017-11-17T18:41:57+08:00 ] 120.204.17.71 /index.php/admin/index/deliverylist.html?order_id=1510745982
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+
+[ 2017-11-17T18:42:09+08:00 ] 61.151.178.170 /index.php/Admin/index/order.html?start=&end=&state=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `admin` WHERE ( id = 1 AND name = 'admin' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "3" ) ORDER BY or_time desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "3" ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT goods.name AS goods_name,order.delivery_id,delivery.name AS delivery_name,order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.paied = 1 AND order.state = "3" ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 AND order.state = "3" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: search_show C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-11-17T18:42:18+08:00 ] 183.192.201.97 /index.php/Admin/index/order.html?start=&end=&state=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND name = '' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( id =  AND name = '' ) LIMIT 1  
+

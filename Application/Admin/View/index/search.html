@@ -1,0 +1,68 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">达康健身器材管理后台</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <div class="add_cp">
+        <form method="post"  action="{:U('index/search')}" onsubmit="" id='subform'>
+            <input  type="text" name="word"value="">
+            <input id="sub" class="btn btn-default btn-xs" type="button" value="搜索" />
+        </form>
+    </div>
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>编号</td>
+                <td>微信名</td>
+                <td>微信头像</td>
+                <td>真实姓名</td>
+                <td>收货地址</td>
+                <td>手机</td>
+                <td>操作</td>
+            </tr>
+            <volist name="data" id="vo">
+               <tr>
+                <td >{$vo['id']}</td>
+                <td >{$vo['wxname']}</td>
+                <td><img width='100px' height='100px'src="{$vo['picture_url']}"></td>
+                <td >{$vo['autonym']}</td>
+                <td >{$vo['address']}</td>
+                <td >{$vo['tel']}</td>
+                
+                <td  width="20%">
+                    <a class="bj_btn" href="{:U('admin/index/vipdetails',array('id'=>$vo['id']))}">查看</a>
+                 <!--    <a  id="del" class="del_btn" href="javascript:" onclick=del("{:U('admin/index/delvip',array('id'=>$vo['id']))}")>删除</a>  -->   
+                </td>
+               </tr>
+           </volist>
+      </table>
+         <div class="pagelist" >{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+
+<script type="text/javascript">
+$('#sub').click(function() {
+    if($('#word').val() != '') {
+        $('form').submit();
+    }
+})
+function del(url){
+if(confirm("确认删除吗")){
+   window.location.href=url; 
+  }
+}
+</script>
+
+
+
+
+
+

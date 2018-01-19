@@ -1,0 +1,62 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">商品表</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <div class="add_cp">
+        <form method="post"  action="{:U('index/add_goods')}" onsubmit="" id='subform'>
+            <input  class="btn btn-default btn-sm" type="submit" value="添加商品" /> 
+        </form>
+    </div>
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>编号</td>
+                <td>产品名</td>
+                <td>产品图</td>
+                <td>标题</td>
+                <td>配置信息</td>
+                <td>简介</td>
+                <!-- <td>配送费</td> -->
+                <td>操作</td>
+            </tr>
+            <volist name="data" id="vo">
+               <tr>
+                <td>{$vo['id']}</td>
+                <td>{$vo['name']}</td>
+                <td><center><img width="150px" height="100px" src="{$vo['picture_url']}"></center></td>
+                <td>{$vo['headline']}</td>
+                <td>{$vo['conf_infor']}</td>
+                <td>{$vo['abstract']}</td>
+                <!-- <td>{$vo['ps_price']}</td> -->
+                <td width="20%">
+                    <a class="bj_btn" href="{:U('admin/index/goodstails',array('id'=>$vo['id']))}">查看</a>
+                    <a id="del" class="del_btn" href="javascript:" onclick=del("{:U('admin/index/del',array('id'=>$vo['id'],'key'=>goods))}")>删除</a>    
+                </td>
+               </tr>
+           </volist>
+      </table>
+         <div class="pagelist" >{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+
+<script type="text/javascript">
+function del(url){
+if(confirm("确认删除吗")){
+   window.location.href=url; 
+  }
+}
+</script>
+
+
+
+
+
+

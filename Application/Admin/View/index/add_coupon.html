@@ -1,0 +1,46 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul>
+</div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/addcoupon')}" onsubmit="" id='subform' enctype="multipart/form-data">
+            <input  type="hidden" name="id"  value="{$data['id']}">
+            <table>
+                 <tr >
+                    <td width="5%">优惠券名称：</td>  
+                    <td width="5%"><input name="name" type="text" value=""></td>
+                </tr>       
+                <tr >
+                    <td width="20%">图片：</td>  
+                    <td width="80%">  
+                        <img width='100px' style="float:left;margin:10px;" height='100px' src="{$data['imgurl']}">
+                        <input type="button" style="width:10%;margin-top: 70px" class="btn btn-sm" id="file" value="选择文件"/>
+                        <input id="uploadFile" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" name="file_path" >
+                    </td>
+                <tr>
+                <tr >
+                    <td width="5%">名称：</td>  
+                    <td width="5%"><input name="name" type="text" value=""></td>
+                </tr> 
+                <td colspan="2" align="center" valign="middle" >
+                    <input class="btn btn-primary btn-sm" style="width:6%;" type="submit" value="提交" />
+                </td>
+            </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+
+
+

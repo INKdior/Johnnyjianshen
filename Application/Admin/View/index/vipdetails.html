@@ -1,0 +1,67 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul><!-- .breadcrumb -->
+</div>
+    <div class="table_con">
+        <table>
+            <tr>
+                <td width="10%">微信</td><td >{$re['wxname']}</td>
+            </tr>
+            <tr>
+                <td>头像</td> <td ><img width='100px' height='100px'src="{$re['picture_url']}"></td>
+            </tr>
+
+            <tr>
+                <td>真实姓名</td><td >{$re['autonym']}</td>
+            </tr>
+            <tr>
+                <td>收货地址</td>
+                <td>
+                    <volist name="address" id="ad">
+                        <p>
+                            ({$key+1})
+                            <span>收货人：{$ad['name']}</span>
+                            <span>电话：{$ad['tel']}</span>
+                            <span>地址：{$ad['addr']}</span>
+                        </p>
+                    </volist>
+                </td>
+            </tr>
+            <tr>
+                <td>手机</td> <td >{$re['tel']}</td>
+            </tr> 
+            <tr>
+                <td>优惠卷</td>
+                <td class="clearfix">
+                    <label><a class="bj_btn" href="{:U('admin/index/user_coupon',array('share'=>$re['openid']))}">查看已分享的优惠券</a></label>
+                    <br>
+                    <label><a class="bj_btn" href="{:U('admin/index/user_coupon',array('user'=>$re['openid']))}">查看已领取的优惠券</a></label>
+                </td>
+            </tr>
+            <tr>
+                <td >订单</td> 
+                <td>
+                    <a class="bj_btn" href="{:U('admin/index/order',array('openid'=>$re['openid']))}">查看</a>    
+                </td>
+            </tr>   
+            <tr>
+                <td >用户余额</td> 
+                <td>{$re['money']}</td>
+            </tr>        
+      </table>
+    </div>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+
+
+<div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+              try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+          <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">达康健身器材管理后台</li>
+          </ul><!-- .breadcrumb -->
+          </div>
+    <div class="add_cp">
+        <input type="button" style="float:left" id="add" class="btn btn-primary xs" value="添加配送员">
+        <form style="float:left;margin:10px;" method="get" action="{:U('admin/index/deliverylist',array('order_id'=>$order_id))}">
+            <input type="text" id="search" name="search">
+            <input id="sub" class="btn btn-default btn-xs" type="submit" value="搜索" />
+        </form>
+    </div>
+    <div class="table_con">
+       <table>
+            <tr class="tb_title">
+                <td height="40">名字</td>
+                <td height="40">电话号码</td>
+                <td height="40">状态</td>
+                <td height="40">订单状态</td>
+                <td height="40">操作</td> 
+                <td height="40" class="choose" style="display: none">配送员</td> 
+            </tr>
+            <volist name="data" id="vo">
+                <form action="{:U('admin/index/delivery_details')}" delivery_id="{$vo[delivery].id}" method="get">
+                    <tr>
+                        <input type="hidden" id="delivery_id" name="id" value="{$vo[delivery].id}" >
+                        <td>{$vo[delivery].name}</td>
+                        <td>{$vo[delivery].phone}</td>
+                        <td id="state"><?=$vo[delivery][data_state] == '0' ? '启用' : '禁用'?></td>
+                        <td>
+                            <a href="javascript:;" class="state" state="undone" id="{$vo[delivery].id}">未完成（{$vo['undone']}）</a>
+                            <a href="javascript:;" class="state" state="done" id="{$vo[delivery].id}">已完成（{$vo['done']}）</a>
+                        <td align="center" valign="middle"> 
+                            <a style="float:left" class="upd" href="javascript:;">修改</a>
+                            <a style="float:left" class="ban" href="javascript:;">禁用</a>
+                            <a style="float:left" class="reuse" href="javascript:;">启用</a>
+                        </td>
+                        <td>
+                            <center>
+                                <button class="call choose btn btn-xs btn-warning" style="display: none" type="button" value="">指派</button> 
+                            </center>
+                        </td>
+                    </tr>
+                </form>
+            </volist>
+      </table>
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+    var order_id = '<?=$order_id?>';
+    if(order_id != '') {
+        $('.choose').show();
+    }
+    $('.call').on('click', function() {
+        var delivery_id = $(this).parents('tr').find('#delivery_id').val();
+        $.post('{:U("admin/index/call_delivery")}',{order_id:order_id,delivery_id:delivery_id},function() {
+            window.opener.location.reload();
+            window.close();
+        });
+    })
+    $('#add').click(function() {
+        window.location.href = "{:U('admin/index/delivery_details')}";
+    });
+    $('.state').click(function() {
+        var state = $(this).attr('state');
+        var delivery_id = $(this).attr('id');
+        if(order_id != '') {
+            window.open("{:U('admin/index/order')}?state="+state+"&delivery_id="+delivery_id,'','width=800,height=400');
+        } else {
+            window.location.href = "{:U('admin/index/order')}?state="+state+"&delivery_id="+delivery_id;
+        }
+    })
+    $('.upd').click(function() {
+        var delivery_id = $(this).parents('tr').find('[name="id"]').val();
+        $('form[delivery_id="'+delivery_id+'"]').submit();
+    })
+    $('.ban').click(function() {
+        var delivery_id = $(this).parents('tr').find('[name="id"]').val();
+        var ban = $(this);
+        if(confirm('是否禁用该配送员！')) {
+            $.post('{:U("admin/index/ban")}',{id:delivery_id},function(json) {
+                ban.parents('tr').find("#state").text('禁用');
+            })
+        }
+    })
+    $('.reuse').click(function() {
+        var delivery_id = $(this).parents('tr').find('[name="id"]').val();
+        var reuse = $(this);
+        if(confirm('是否启用该配送员！')) {
+            $.post('{:U("admin/index/reuse")}',{id:delivery_id},function(json) {
+                reuse.parents('tr').find("#state").text('启用');
+            })
+        }
+    })
+</script>
+
+
+
+
+
+
+
+
+

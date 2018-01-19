@@ -1,0 +1,64 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">优惠卷管理</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <div class="add_cp">
+        <form method="post"  action="{:U('index/user_coupon')}" onsubmit="" id='subform'>
+            <input type="text" id="word" name="word">
+            <input id="sub" class="btn btn-default btn-xs" type="button" value="搜索" />
+        </form>
+    </div>
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>编号</td>
+                <td>优惠卷名字</td>
+                <td>领取人</td>
+                <td>分享人</td>
+                <td>金额</td>
+                <td>截止期限</td>
+                <td>领取时间</td>
+                <td>状态</td>
+            </tr>
+
+            <volist name="data" id="vo">
+                <tr>
+                    <td>{$vo['id']}</td>
+                    <td>{$vo['coupon_name']}</td>
+                    <td>{$vo['user']}</td>
+                    <td>{$vo['share']}</td>
+                    <td>{$vo['value']}</td>
+                    <td>{$vo['deadline']}</td>
+                    <td>{$vo['date']}</td>
+                    <td><?= ($vo['status'] == 'N') ? '未使用' : '已使用' ?></td>
+               </tr>
+           </volist>
+      </table>
+         <div class="pagelist" >{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+	function del(url) {
+		if(confirm("确认删除吗")) {
+		    window.location.href=url; 
+		}
+	}
+	$('#sub').click(function() {
+		$('#subform').submit();
+	})
+</script>
+
+
+
+
+
+

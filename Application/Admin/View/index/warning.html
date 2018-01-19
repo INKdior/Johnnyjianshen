@@ -1,0 +1,49 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">订单表</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <br>
+    <!-- <div class="add_cp"> -->
+    <!-- </div> -->
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>订单号</td>
+                <td>品名</td>
+                <td>状态</td>
+                <td>剩余时日</td>
+                <td>下单时间</td>
+                <td>开始日期</td>
+                <td>到期日期</td>
+                <td>用户</td>
+                <td>详情</td>
+            </tr>
+            <volist name="data" id="vo">
+                <tr>     
+                    <td id="order_id" value="{$vo['order_id']}"><center>{$vo['order_id']}</center></td>
+                    <td value="{$vo['goods_name']}"><center>{$vo['goods_name']}</center></td>
+                    <td value="{$vo['cur_state']}" id="state"><center>{$vo['state']}</center></td>
+                    <td value="{$vo['pay_for']}" id="pay_for"><center><text style="color:red">{$vo['rest']}天</text></center></td>
+                    <td value="{$vo['or_time']}" id="or_time"><center>{$vo['order_time']}</center></td>            
+                    <td value="{$vo['or_time']}" id="or_time"><center>{$vo['or_time']}</center></td>
+                    <td value="{$vo['or_time']}" id="or_time"><center>{$vo['xd_time']}</center></td>
+                    <td value="{$vo['wxname']}" id="wxname"><center>{$vo['wxname']}</center></td>
+                    <td>
+                        <a class="sj_btn" href="{:U('admin/index/order_details',array('id' => $vo['id']))}"><center>订单详情</center></a>  
+                    </td>
+                </tr>
+           </volist>
+        </table>
+       <div class="pagelist">{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+</script>

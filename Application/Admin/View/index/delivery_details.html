@@ -1,0 +1,88 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul>
+    </div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/add_delivery')}" onsubmit="" id='subform' enctype="multipart/form-data">
+            <input type="hidden" name="id" value="{$data['id']}">
+            <table>
+                <tr>
+                    <td>姓名：</td>
+                    <td >
+                        <input name="name" type="text" value="{$data['name']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>电话：</td>
+                    <td >
+                        <input name="phone" type="text" value="{$data['phone']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>账号：</td>
+                    <td >
+                        <input name="account" type="text" value="{$data['account']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td >
+                        <input name="password" type="password" value="{$data['password']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>状态：</td>
+                    <td >
+                        <?=$data['data_state'] == '1' ? '禁用' : '启用'?> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" id="sub" value="提交" style=" border:none;background-color:#0066FF; color:#ffffff; width:100px; 
+                        text-align:center; height:40px; line-height:37px;" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    var check = '<?=$check?>';
+    if(check == 'check') {
+        $('#sub').hide();
+        $('input').attr('disabled','true');
+    }
+    $('#sub').on('click', function() {
+        var name = $('[name="name"]').val();
+        var pwd = $('[name="password"]').val();
+        var account = $('[name="account"]').val();
+        var phone = $('[name="phone"]').val();
+        if(name == '') {
+            alert('姓名不能为空');
+            return;
+        } else if(pwd == '') {
+            alert('密码不能为空');
+            return;
+        } else if(account == '') {
+            alert('账号不能为空');
+            return;
+        } else if(phone == '') {
+            alert('电话号码不能为空');
+            return;
+        }
+        $('form').submit();
+    })
+</script>
+
+
+
+
+

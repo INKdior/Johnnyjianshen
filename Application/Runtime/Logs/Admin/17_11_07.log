@@ -1,0 +1,370 @@
+[ 2017-11-07T06:39:42+08:00 ] 118.192.48.6 /INDEX.PHP/ADMIN/INDEX/VIPDETAILS/ID/38.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载控制器:INDEX
+
+[ 2017-11-07T14:04:06+08:00 ] 120.41.148.39 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.312733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009206s ]
+
+[ 2017-11-07T14:04:14+08:00 ] 120.41.148.39 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = 'admin') AND (`pwd` = 'e10adc3949ba59abbe56e057f20f883e') ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = 'admin') AND (`pwd` = 'e10adc3949ba59abbe56e057f20f883e') ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-11-07T14:04:14+08:00 ] 120.41.148.39 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-11-07T14:04:30+08:00 ] 120.41.148.39 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: SELECT order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time desc  [ RunTime:0.0014s ]
+SQL: SELECT order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time desc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: parameter C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: power C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 429 行.
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-11-07T14:04:38+08:00 ] 120.41.148.39 /index.php/Admin/index/ico.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 977 行.
+SQL: SELECT * FROM `banner` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-11-07T14:04:41+08:00 ] 120.41.148.39 /index.php/Admin/index/about_us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `about_us` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `about_us` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-11-07T14:04:47+08:00 ] 120.41.148.39 /index.php/Admin/index/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 728 行.
+SQL: SELECT * FROM `goods` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-11-07T14:04:53+08:00 ] 120.41.148.39 /index.php/admin/index/goodstails/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_price.g_id = "15" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0107s ]
+SQL: SELECT count(id) AS count FROM `order` WHERE ( goods_id = 15 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-11-07T14:05:29+08:00 ] 120.41.148.39 /index.php/Admin/index/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 728 行.
+SQL: SELECT * FROM `goods` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 357 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-11-07T14:05:34+08:00 ] 120.41.148.39 /index.php/Admin/index/area.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `area` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-11-07T14:05:38+08:00 ] 120.41.148.39 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 141 行.
+SQL: SELECT order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time desc  [ RunTime:0.0014s ]
+SQL: SELECT order.pay_for,order.paied,order.deposit,order.express,order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time desc  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: parameter C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT order.deposit,order.price,order.express,order.state FROM `order` WHERE ( order.paied = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: power C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 429 行.
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 440 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-11-07T14:06:38+08:00 ] 183.3.255.35 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-11-07T14:06:38+08:00 ] 120.41.148.39 /index.php/admin/index/search_new.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0138s ]
+SQL: SELECT count(id) AS prompt FROM `order` WHERE ( prompt = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) AS paied FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-11-07T14:06:41+08:00 ] 183.3.255.35 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = 'admin') AND (`pwd` = 'e10adc3949ba59abbe56e057f20f883e') ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = 'admin') AND (`pwd` = 'e10adc3949ba59abbe56e057f20f883e') ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-11-07T14:06:41+08:00 ] 183.3.255.35 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-11-07T14:06:51+08:00 ] 120.204.17.69 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: name C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined index: password C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = null) AND (`pwd` = 'd41d8cd98f00b204e9800998ecf8427e') ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = null) AND (`pwd` = 'd41d8cd98f00b204e9800998ecf8427e') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+

@@ -1,0 +1,161 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">订单表</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <br>
+    <!-- <div class="add_cp"> -->
+    <!-- </div> -->
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>订单号</td>
+                <!-- <td>支付状态</td> -->
+                <td>状态</td>
+                <td>催单</td>
+                <!-- <td>支付方式</td> -->
+                <!-- <td>总金额</td> -->
+                <!-- <td>押金</td> -->
+                <td>配送费</td>
+                <td>下单时间</td>
+                <!-- <td>用户</td> -->
+                <td>收货人</td>
+                <td>联系方式</td>
+                <td>送货地址</td>
+                <!-- <td>操作</td> -->
+                <!-- <td>详情</td> -->
+            </tr>
+            <volist name="data" id="vo">
+                <tr class='opreate' id="{$vo['delivery_id']}">     
+                    <td id="order_id" value="{$vo['order_id']}"><center>{$vo['order_id']}</center></td>
+                    <!-- <td value="{$vo['paied']}" id="paied"><center><?= $vo['paied'] == '1' ? '已完成支付' : '未支付' ?></center></td> -->
+                    <td value="{$vo['cur_state']}" id="state"><center>{$vo['state']}</center></td>
+                    <td value="{$vo['prompt']}" id="prompt"><center><?= $vo['prompt'] == '1' ? '客户催单' : '未催单' ?></center></td>
+                    <!-- <td value="{$vo['pay_for']}" id="pay_for"><center><?= $vo['pay_for'] == '1' ? '购买' : '租用' ?></center></td> -->
+                    <!-- <td value="{$vo['price']}" id="price"><center>{$vo['price']}</center></td> -->
+                    <!-- <td value="{$vo['deposit']}" id="deposit"><center>{$vo['deposit']}</center></td> -->
+                    <td value="{$vo['express']}" id="express"><center>{$vo['express']}</center></td>            
+                    <td value="{$vo['or_time']}" id="or_time"><center>{$vo['or_time']}</center></td>
+                    <!-- <td value="{$vo['wxname']}" id="wxname"><center>{$vo['wxname']}</center></td> -->
+                    <td value="{$vo['receiver']}" id="receiver">{$vo['receiver']}</td>
+                    <td value="{$vo['receiver']}" id="receiver">{$vo['tel']}</td>
+                    <td value="{$vo['addr']}" id="addr">{$vo['addr']}</td>
+       <!--              <td class="opreate" id="{$vo['delivery_id']}">
+                        <a href="javascript:">
+                            <center><?= empty($vo['delivery_name']) ? '指派配送' : $vo['delivery_name'] ?></center>
+                        </a>
+                    </td> -->
+                    <!-- <td>
+                        <a class="sj_btn" href="{:U('admin/index/order_details',array('id' => $vo['id']))}"><center>订单详情</center></a>  
+                    </td> -->
+                </tr>
+           </volist>
+        </table>
+       <div class="pagelist">{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+$('.opreate').on('click', function() {
+        var tr = $(this);
+        var state_title = tr.find('#state').text();
+        var state = tr.find("#state").attr('value');
+        var html = "<tr id='change_state'><td colspan='14'><label>当前状态：</label>"
+                 + "<label value='"+state+"' id='cur_state'><button value='2' class ='btn btn-default btn-xs'>"+state_title+"</button></label>";
+        if(state == '1') {
+            html += "<label> -----> </label>"
+                 + '<label><button value="2" class ="CState btn btn-primary btn-xs">配送完成</button></label></td></tr>';
+        } else if(state == '61') {
+            html += "<label> -----> </label>"
+                 + '<label><button value="7" class ="CState btn btn-primary btn-xs">还货完成(返还押金)</button></label></td></tr>';
+        }
+        if(tr.next().attr('id') == 'change_state') {
+            tr.next().remove();
+        } else {
+            tr.after(html);
+        }
+    })
+        $('body').on('click','.CState', function() {
+            var tr = $(this).parent().parent().parent();
+            var prev_tr = tr.prev();
+            var state = $(this).attr('value');
+            var prev_state = tr.find('#cur_state').attr('value');
+            var paied = prev_tr.find('#paied').attr('value');
+            var express = prev_tr.find('#express').attr('value');
+            var order_id = prev_tr.find('#order_id').attr('value');
+            var text = $(this).text();
+            if(state == '5') {
+                if(prev_state != '4') {
+                    alert('该用户未有取消订单操作');
+                    return;
+                } else {
+                    if(!confirm('是否向该用户退款')) {
+                        return;
+                    }
+                }
+            } else if(state == '10') {
+                if(prev_state != '8') {
+                    alert('该用户未有申请转租操作');
+                    return;
+                } else {
+                    if(!confirm('是否向该用户返回全额押金')) {
+                        return;
+                    }
+                }
+            } else if(state == '9') {
+                if(prev_state != '8') {
+                    alert('该用户未有申请转租操作');
+                    return;
+                } else {
+                    if(!confirm('是否向该用户返回押金并扣除还货配送费')) {
+                        return;
+                    }
+                }
+            } else if(state == '7') {
+                if(prev_state != '61') {
+                    alert('该用户未有申请还货操作');
+                    return;
+                } else {
+                    if(!confirm('是否向该用户返回押金')) {
+                        return;
+                    }
+                }
+            } else if(paied == '0') {
+                alert('不能对用户进行该操作');
+                return;
+            }
+            if(prev_state > state) {
+                alert('不能对用户进行该操作');
+                return;
+            }
+            if(confirm('是否确定执行该操作')) {
+                $.ajax({
+                    url: "{:U('index/change_state')}",
+                    type: 'post',
+                    dataType: 'json',
+                    data: {state: state,order_id :order_id},
+                    success: function(data) {
+                        if(data == 'success') {
+                            alert('修改成功');
+                            prev_tr.remove();
+                            tr.remove();
+                            // console.log(data);
+                            tr.find('#cur_state').text(text);
+                            prev_tr.find('#state').text(text);
+                        } else {
+                            alert(data);
+                            if(data.error == '0') {
+                                alert(data.msg);
+                            }
+                        }
+                    }
+                })
+            }
+        })
+</script>

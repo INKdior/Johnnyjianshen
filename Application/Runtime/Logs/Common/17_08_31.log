@@ -1,0 +1,132 @@
+[ 2017-08-31T18:54:21+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:54:21+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:00+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:00+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:40+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:40+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:44+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:44+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:45+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:45+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:46+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:46+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:47+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:47+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:48+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:48+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:53+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:55:53+08:00 ] ::1 /index.php/__PUBLIC__/home/img/big.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:57:00+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:58:33+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:58:40+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2017-08-31T18:59:08+08:00 ] ::1 /index.php/__PUBLIC__/home/img/small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+

@@ -1,0 +1,118 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="/Public/home/css/bootstrap.css">
+		<link rel="stylesheet" href="/Public/home/css/particulars.css" />
+		<script src="/Public/home/js/jquery-1.12.2.min.js"></script>
+		<script src="/Public/home/js/bootstrap.min.js" type="text/jscript"></script>
+		<title>个人中心</title>
+	</head>
+	<script type="text/javascript">
+		var pageStartTime = +new Date;
+		~
+		function(e) {
+			function t() {
+				var t = screen.width > 0 && (e.innerWidth >= screen.width || 0 == e.innerWidth) ? screen.width : e.innerWidth;
+				a && (t = screen.width);
+				var i = t > u ? w : t / (u / 100);
+				i = i > h ? i : h, document.documentElement.style.fontSize = i + "px"
+			}
+			var i, n = e.navigator.userAgent,
+				a = n.match(/iphone/i),
+				o = n.match(/yixin/i),
+				c = n.match(/Mb2345/i),
+				r = n.match(/mso_app/i),
+				s = n.match(/sogoumobilebrowser/gi),
+				m = n.match(/liebaofast/i),
+				d = n.match(/GNBR/i),
+				u = document.documentElement.dataset.dw || 720
+			h = 42,
+				w = 100;
+			e.addEventListener("resize", function() {
+				clearTimeout(i), i = setTimeout(t, 300)
+			}, !1), e.addEventListener("pageshow", function(e) {
+				e.persisted && (clearTimeout(i), i = setTimeout(t, 300))
+			}, !1), o || c || r || s || m || d ? setTimeout(function() {
+				t()
+			}, 500) : t()
+		}(window);
+	</script>
+	<body>		
+		<div class="container-fluid header">
+			<div class="return">
+				<a href="<?php echo U('home/index/balance');?>" class="return-img">
+					<img src="/Public/home/img/返回.png" />
+				</a>
+				<p class="person-center text-center">收支明细</p>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="long-line"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var data = '<?=json_encode($data)?>';
+			if(data != 'null') {
+				data = JSON.parse(data);
+				var rest = data[0].money;
+				$('.fl').text('当前余额为：'+rest);
+				var html = '';
+				for(var i in data) {
+					if(data[i].type == 'refund') {
+						var refund_type = data[i].refund_type;
+						if(refund_type == '0') {
+							refund_type = '全额退款';
+						} else if(refund_type == '1') {
+							refund_type = '退还全额押金';
+						} else if(refund_type == '2') {
+							refund_type = '押金扣配送费';
+						}
+						html += "<div class='footer-div'>"
+							 +  "<div class='footer-left'>"
+							 +	"<p class='black'>订单号码:</p>"
+							 +	"<p class='black'>支付:</p>"
+							 +	"<p class='black'>退还金额:</p>"
+							 +	"<p class='money'>退款类型:&nbsp;<span>"+refund_type+"</span></p>"
+							 +  "</div>"
+							 +  "<div class='footer-right'>"
+							 +	"<p class='money'>"+data[i].order_id+"</p>"
+							 +	"<p class='money'>"+data[i].price+"</p>"
+							 +  "<p class='money'><span class='green-number'>+"+data[i].refund_money+"</span></p>"
+							 +  "<p class='money'><span>"+data[i].time+"</span></p>"
+							 +  "</div>"
+						     +  "</div>"
+						     +  "<div class='long-line'></div>";
+					} else if(data[i].type == 'withdraw') {
+						var state = data[i].state;
+						if(state == '0') {
+							state = '申请提现';
+							var time = data[i].apply_time;
+						} else if(state == '1') {
+							state = '提现成功';
+							var time = data[i].time;
+						}
+						html += "<div class='footer-div'>"
+							 +  "<div class='footer-left'>"
+							 +	"<p class='black'>提现:</p>"
+							 +	"<p class='black'>提现状态:</p>"
+							 +	"<p class='money'>余额:&nbsp;<span>"+data[i].rest_money+"</span></p>"
+							 +  "</div>"
+							 +  "<div class='footer-right'>"
+							 +  "<p class='money'><span class='red-number'>"+data[i].money+"</span></p>"
+							 +  "<p class='money'><span>-"+state+"</span></p>"
+							 +  "<p class='money'><span>"+time+"</span></p>"
+							 +  "</div>"
+						     +  "</div>"
+						     +  "<div class='long-line'></div>";
+					}
+				}
+				$('.footer').append(html);
+			}
+			console.log(data);
+		})
+	</script>
+</html>

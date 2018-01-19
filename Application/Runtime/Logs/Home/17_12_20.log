@@ -1,0 +1,2822 @@
+[ 2017-12-20T00:27:11+08:00 ] 47.97.16.6 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-12-20T04:12:23+08:00 ] 106.11.225.129 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-12-20T05:37:43+08:00 ] 47.100.130.114 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-12-20T10:50:53+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-12-20T10:51:09+08:00 ] 140.205.225.192 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-12-20T10:51:52+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-12-20T10:52:11+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-12-20T10:52:14+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-12-20T10:52:35+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-12-20T10:52:58+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-12-20T10:53:03+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-12-20T10:53:04+08:00 ] 140.205.225.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-12-20T14:12:46+08:00 ] 120.41.160.25 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined index: code C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 402 行.
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 403 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-12-20T14:12:47+08:00 ] 120.41.160.25 /index.php/home/index/personal_center?code=021QfOTb1A0PRu02d3Vb1bsRTb1QfOTz&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-12-20T14:12:49+08:00 ] 120.41.160.25 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-12-20T14:12:50+08:00 ] 120.41.160.25 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-12-20T14:13:00+08:00 ] 101.226.233.153 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-12-20T14:13:03+08:00 ] 120.41.161.133 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-12-20T14:13:03+08:00 ] 120.41.160.25 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-12-20T14:13:05+08:00 ] 120.41.161.133 /index.php/home/index/share?code=011a3ZxM0NUyh42lyPxM0WP8yM0a3Zxq&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 503 行.
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv1wRIn1NdTy1LYpwQKHpkxI','oPL7sv07Q2y0hlsFaUbcsGFUyYfM','14','0',NULL,NULL,NULL,NULL,'2017-12-20 02:13:05') [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-12-20T14:13:05+08:00 ] 120.41.160.25 /index.php/home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-12-20T14:13:08+08:00 ] 120.41.160.25 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-12-20T14:13:09+08:00 ] 120.41.160.25 /index.php/home/index/cancellation_of_order.html?o_id=290
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0076s ]
+SQL: SELECT delivery.name AS delivery_name,delivery.phone AS delivery_phone,order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=290 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-12-20T14:13:15+08:00 ] 101.226.233.153 /index.php/home/index/product_det/user/oPL7sv07Q2y0hlsFaUbcsGFUyYfM/g_id/24/order_id/1512352910.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-12-20T14:13:20+08:00 ] 120.41.161.133 /index.php/home/index/product_det/user/oPL7sv07Q2y0hlsFaUbcsGFUyYfM/g_id/24/order_id/1512352910.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-12-20T14:13:23+08:00 ] 120.41.161.133 /index.php/home/index/product_details?code=011jCARS1uHd471A9cSS1QksRS1jCARo&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0091s ]
+SQL: SELECT `id` FROM `order` WHERE ( goods_id = 24 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=24 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-12-20T14:13:26+08:00 ] 120.41.161.133 /index.php/home/index/product_details?code=011jCARS1uHd471A9cSS1QksRS1jCARo&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Undefined property: stdClass::$openid C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 264 行.
+NOTIC: [8] Undefined property: stdClass::$access_token C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined property: stdClass::$nickname C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 268 行.
+NOTIC: [8] Undefined property: stdClass::$headimgurl C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [8] Undefined property: stdClass::$openid C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 270 行.
+NOTIC: [8] Undefined property: stdClass::$sex C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 271 行.
+NOTIC: [8] Undefined property: stdClass::$language C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 272 行.
+NOTIC: [8] Undefined property: stdClass::$city C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [8] Undefined property: stdClass::$province C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 274 行.
+NOTIC: [8] Undefined property: stdClass::$country C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1048:Column 'wxname' cannot be null
+ [ SQL语句 ] : INSERT INTO `consumer` (`wxname`,`picture_url`,`openid`,`sex`,`new_vip`) VALUES (NULL,NULL,NULL,NULL,'1')
+ERR: 1048:Column 'wxname' cannot be null
+ [ SQL语句 ] : INSERT INTO `consumer` (`wxname`,`picture_url`,`openid`,`sex`,`new_vip`) VALUES (NULL,NULL,NULL,NULL,'1')
+
+[ 2017-12-20T14:13:34+08:00 ] 120.41.160.25 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-12-20T14:13:35+08:00 ] 120.41.160.25 /index.php/home/index/share?code=001JQZYA0YNlhf2InSYA0khVYA0JQZYu&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 500 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 503 行.
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv07Q2y0hlsFaUbcsGFUyYfM','oPL7sv07Q2y0hlsFaUbcsGFUyYfM','14','0',NULL,NULL,NULL,NULL,'2017-12-20 02:13:35') [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-12-20T14:13:44+08:00 ] 120.204.17.68 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index: code C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 402 行.
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 403 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-12-20T14:13:46+08:00 ] 120.41.161.133 /index.php/Home/index/submit_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0185s ]
+SQL: SELECT `id`,`state` FROM `order` WHERE ( exchange = "1512352910" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `g_price` WHERE ( id = 107 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `consumer` WHERE ( id='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `address` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND state = '0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `stock` FROM `goods` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT count(id) AS num FROM `order` WHERE ( goods_id = 24 AND state != 5 AND state != 7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `area` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: jsApiParameters C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 48 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 155 行.
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 157 行.
+NOTIC: [8] Undefined variable: relet C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 173 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 175 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 212 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 213 行.
+NOTIC: [8] Undefined index: pay_for C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-12-20T14:13:48+08:00 ] 101.226.33.228 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: code C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 402 行.
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 403 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-12-20T14:14:34+08:00 ] 120.204.17.68 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-12-20T14:14:41+08:00 ] 101.226.66.181 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-12-20T14:23:33+08:00 ] 120.41.160.25 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-12-20T14:23:34+08:00 ] 120.41.160.25 /index.php/home/index/share?code=011h2NAf1YsOxy0gviBf18GYAf1h2NAm&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv07Q2y0hlsFaUbcsGFUyYfM','oPL7sv07Q2y0hlsFaUbcsGFUyYfM','14','0',NULL,NULL,NULL,'10','2017-12-20 02:23:34') [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-12-20T14:23:40+08:00 ] 120.41.160.25 /index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-12-20T14:23:41+08:00 ] 120.41.160.25 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-12-20T14:23:56+08:00 ] 120.41.160.25 /index.php/home/index/product_det/user/oPL7sv07Q2y0hlsFaUbcsGFUyYfM/g_id/24/order_id/1512352910.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-12-20T14:23:56+08:00 ] 120.41.160.25 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-12-20T14:23:57+08:00 ] 120.41.160.25 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-12-20T14:24:50+08:00 ] 120.41.161.133 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-12-20T14:24:53+08:00 ] 120.41.161.133 /index.php/home/index/share?code=081SCC0d0ikRju1RNB2d0vTz0d0SCC0D&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv1wRIn1NdTy1LYpwQKHpkxI','oPL7sv07Q2y0hlsFaUbcsGFUyYfM','14','0',NULL,NULL,NULL,'10','2017-12-20 02:24:53') [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-12-20T14:25:23+08:00 ] 113.96.219.249 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-12-20T14:25:23+08:00 ] 113.96.219.249 /index.php/home/index/share_login/share_openid/oPL7sv07Q2y0hlsFaUbcsGFUyYfM.html?from=singlemessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-12-20T14:25:24+08:00 ] 113.96.219.249 /index.php/home/index/share?code=021V6r5K0INKc62ubm7K0Wew5K0V6r5W&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-12-20T14:25:25+08:00 ] 113.96.219.249 /index.php/home/index/share?code=061x1WLE1GbiQ00PSVOE1vdaME1x1WL1&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv07Q2y0hlsFaUbcsGFUyYfM" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND share_openid ='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-12-20T14:30:56+08:00 ] 113.96.219.249 /index.php/home/index/all_orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-12-20T14:30:58+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-12-20T14:31:01+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-12-20T14:31:02+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-12-20T14:31:04+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-12-20T14:31:11+08:00 ] 113.96.219.249 /index.php/home/index/cancellation_of_order.html?o_id=291
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0084s ]
+SQL: SELECT delivery.name AS delivery_name,delivery.phone AS delivery_phone,order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=291 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-12-20T14:31:19+08:00 ] 113.96.219.249 /index.php/home/index/change_state/order_id/1512959022/state/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0142s ]
+SQL: UPDATE `order` SET `state`='6',`delivery_id`='0' WHERE ( order_id='1512959022' ) [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `state`='6',`delivery_id`='0' WHERE ( order_id='1512959022' ) [ RunTime:0.0003s ]
+
+[ 2017-12-20T14:31:19+08:00 ] 113.96.219.249 /index.php/Home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-12-20T14:31:21+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-20T14:31:22+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-12-20T14:31:23+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-12-20T14:31:24+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-12-20T14:31:25+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-12-20T14:31:26+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-20T14:31:26+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-12-20T14:31:28+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-12-20T14:31:37+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-12-20T14:31:38+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-12-20T14:31:38+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-12-20T14:31:38+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-12-20T14:31:38+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-12-20T14:31:39+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-12-20T14:31:39+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-12-20T14:31:39+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-12-20T14:31:39+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-12-20T14:32:06+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-12-20T14:32:07+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-12-20T14:32:19+08:00 ] 121.51.32.144 /index.php/home/index/change_state/order_id/1512959022/state/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0148s ]
+SQL: UPDATE `order` SET `state`='6',`delivery_id`='0' WHERE ( order_id='1512959022' ) [ RunTime:0.0004s ]
+SQL: UPDATE `order` SET `state`='6',`delivery_id`='0' WHERE ( order_id='1512959022' ) [ RunTime:0.0003s ]
+
+[ 2017-12-20T14:32:19+08:00 ] 121.51.32.144 /index.php/Home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: code C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 951 行.
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 952 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( user='' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-12-20T14:34:27+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-12-20T14:34:27+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-12-20T14:36:40+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-12-20T14:38:46+08:00 ] 113.96.219.249 /index.php/home/index/all_orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-12-20T14:38:48+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-12-20T14:38:49+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-20T14:41:21+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND paied = 1 AND ((pay_for = 0 AND state = 2) OR state = 3 OR state = 8 OR state = 6) ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-12-20T14:41:21+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND (state = 6 OR state = 8 OR state = 61)  ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-12-20T14:41:22+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0494s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-12-20T14:41:49+08:00 ] 113.96.219.249 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-12-20T14:41:52+08:00 ] 113.96.219.249 /index.php/home/index/balance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `consumer` WHERE ( consumer.openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-12-20T14:41:56+08:00 ] 113.96.219.249 /index.php/home/index/particulars.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `refund` [ RunTime:0.0134s ]
+SQL: SELECT refund.*,`order`.price,`order`.or_time,"refund" AS type FROM `refund` LEFT JOIN `order` ON `order`.order_id = refund.order_id INNER JOIN consumer ON `order`.user = consumer.openid  WHERE ( `order`.user = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `withdraw` [ RunTime:0.0091s ]
+SQL: SELECT withdraw.*,"withdraw" AS type FROM `withdraw` WHERE ( user = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-12-20T14:42:06+08:00 ] 113.96.219.249 /index.php/home/index/withdraw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2017-12-20T14:42:13+08:00 ] 113.96.219.249 /index.php/home/index/withdraw_deposit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `consumer` SET `money`='0' WHERE ( openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `withdraw` [ RunTime:0.0103s ]
+SQL: INSERT INTO `withdraw` (`user`,`apply_time`,`state`,`money`,`rest_money`) VALUES ('oPL7sv1wRIn1NdTy1LYpwQKHpkxI','2017-12-20 14:42:13','0','0.02','0') [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-12-20T14:42:14+08:00 ] 113.96.219.249 /index.php/home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-12-20T14:42:18+08:00 ] 113.96.219.249 /index.php/home/index/balance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `consumer` WHERE ( consumer.openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-12-20T14:42:20+08:00 ] 113.96.219.249 /index.php/home/index/address_administration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `address` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: choose_addr C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\055fcd634434f769455ad4aec20350f5.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-12-20T14:42:22+08:00 ] 113.96.219.249 /index.php/home/index/personal_coupon.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0144s ]
+SQL: SELECT user_coupon.*,coupon.coupon_name,coupon.deadline FROM `user_coupon` LEFT JOIN coupon ON coupon.id = user_coupon.coupon_id  WHERE ( user_openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND coupon.status = 'N' AND user_coupon.status = 'N' AND coupon.deadline > '2017-12-20' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-20T14:42:45+08:00 ] 113.96.219.249 /index.php/home/index/personal_data.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\803f01c452b0d6fe8b630355ad99c8f0.php 第 133 行.
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\803f01c452b0d6fe8b630355ad99c8f0.php 第 141 行.
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\803f01c452b0d6fe8b630355ad99c8f0.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-12-20T14:42:52+08:00 ] 113.96.219.249 /index.php/home/index/The_user_id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-12-20T14:42:55+08:00 ] 113.96.219.249 /index.php/Home/Index/xg_consumer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0127s ]
+SQL: UPDATE `consumer` SET `wxname`='易米烊光' WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) [ RunTime:0.0021s ]
+
+[ 2017-12-20T14:42:55+08:00 ] 113.96.219.249 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-12-20T14:42:56+08:00 ] 120.204.17.70 /index.php/home/index/particulars.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `refund` [ RunTime:0.0126s ]
+SQL: SELECT refund.*,`order`.price,`order`.or_time,"refund" AS type FROM `refund` LEFT JOIN `order` ON `order`.order_id = refund.order_id INNER JOIN consumer ON `order`.user = consumer.openid  WHERE ( `order`.user = "" ) ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `withdraw` [ RunTime:0.0083s ]
+SQL: SELECT withdraw.*,"withdraw" AS type FROM `withdraw` WHERE ( user = "" ) ORDER BY time desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: tmp C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 362 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 362 行.
+NOTIC: [8] Undefined variable: temp C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-12-20T14:42:57+08:00 ] 113.96.219.249 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-12-20T14:42:58+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-12-20T14:43:03+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_price?product=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=14 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-12-20T14:43:03+08:00 ] 113.96.219.249 /index.php/home/index/search_product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0092s ]
+SQL: SELECT `id` FROM `goods` WHERE ( name like "%%" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-12-20T14:43:05+08:00 ] 113.96.219.249 /index.php/home/index/search_product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0128s ]
+SQL: SELECT `id` FROM `goods` WHERE ( name like "%%" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-12-20T14:43:06+08:00 ] 113.96.219.249 /index.php/home/index/search_product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0133s ]
+SQL: SELECT `id` FROM `goods` WHERE ( name like "%%" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-12-20T14:43:06+08:00 ] 113.96.219.249 /index.php/home/index/search_product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `goods` WHERE ( name like "%%" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-12-20T14:43:06+08:00 ] 113.96.219.249 /index.php/home/index/search_product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `goods` WHERE ( name like "%%" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-12-20T14:43:08+08:00 ] 113.96.219.249 /index.php/Home/Index/ajax_price?product=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=24 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-12-20T14:43:12+08:00 ] 113.96.219.249 /index.php/Home/index/submit_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `g_price` WHERE ( id = 107 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `consumer` WHERE ( id='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `address` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND state = '0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `stock` FROM `goods` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0103s ]
+SQL: SELECT count(id) AS num FROM `order` WHERE ( goods_id = 24 AND state != 5 AND state != 7 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `area` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: jsApiParameters C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 48 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 155 行.
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 157 行.
+NOTIC: [8] Undefined variable: relet C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 173 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 175 行.
+NOTIC: [8] Undefined variable: exchange C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 180 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 212 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 213 行.
+NOTIC: [8] Undefined index: pay_for C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-12-20T14:43:18+08:00 ] 113.96.219.249 /index.php/home/index/personal_coupon/flag/choose.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0139s ]
+SQL: SELECT user_coupon.*,coupon.coupon_name,coupon.deadline FROM `user_coupon` LEFT JOIN coupon ON coupon.id = user_coupon.coupon_id  WHERE ( user_openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND coupon.status = 'N' AND user_coupon.status = 'N' AND coupon.deadline > '2017-12-20' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-12-20T14:43:20+08:00 ] 113.96.219.249 /index.php/home/index/submit_order.html?coupon_id=248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `g_price` WHERE ( id = 107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( id = 248 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `consumer` WHERE ( id='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `address` WHERE ( openid='oPL7sv1wRIn1NdTy1LYpwQKHpkxI' AND state = '0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `stock` FROM `goods` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0091s ]
+SQL: SELECT count(id) AS num FROM `order` WHERE ( goods_id = 24 AND state != 5 AND state != 7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `area` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: jsApiParameters C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 48 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 155 行.
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 157 行.
+NOTIC: [8] Undefined variable: relet C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 173 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 175 行.
+NOTIC: [8] Undefined variable: exchange C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 180 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 212 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 213 行.
+NOTIC: [8] Undefined index: pay_for C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-12-20T14:43:26+08:00 ] 113.96.219.249 /index.php/home/Wxjs/pay_ok.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: addr_id C:\xampp\htdocs\jianshen\Application\Home\Controller\WxjsController.class.php 第 20 行.
+NOTIC: [8] Undefined index: addr_id C:\xampp\htdocs\jianshen\Application\Home\Controller\WxjsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0129s ]
+SQL: SELECT `money` FROM `consumer` WHERE ( openid = "oPL7sv1wRIn1NdTy1LYpwQKHpkxI" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT `ps_price` FROM `goods` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-12-20T14:43:26+08:00 ] 113.96.219.249 /index.php/Home/index/pay/deposit/0.5/rest/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-12-20T14:43:55+08:00 ] 121.51.32.144 /index.php/home/index/The_user_id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-12-20T14:59:23+08:00 ] 106.120.160.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-12-20T14:59:36+08:00 ] 101.199.108.118 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-12-20T15:55:51+08:00 ] 117.30.167.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-12-20T15:55:52+08:00 ] 117.30.167.211 /index.php/home/index/get_unionid?code=0019SI7x1CYjlb0SPD8x13LL7x19SI76&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-12-20T15:55:52+08:00 ] 117.30.167.211 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-12-20T15:55:56+08:00 ] 117.30.167.211 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-12-20T15:55:57+08:00 ] 117.30.167.211 /index.php/Home/Index/ajax_price?product=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=14 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-12-20T15:55:58+08:00 ] 117.30.167.211 /index.php/Home/Index/ajax_price?product=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=24 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-12-20T15:55:59+08:00 ] 117.30.167.211 /index.php/Home/index/submit_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `goods` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `g_price` WHERE ( id = 107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `consumer` WHERE ( id='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `address` WHERE ( openid='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND state = '0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `stock` FROM `goods` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0092s ]
+SQL: SELECT count(id) AS num FROM `order` WHERE ( goods_id = 24 AND state != 5 AND state != 7 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `area` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: jsApiParameters C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 48 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 155 行.
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 157 行.
+NOTIC: [8] Undefined variable: relet C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 173 行.
+NOTIC: [8] Undefined variable: repay C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 175 行.
+NOTIC: [8] Undefined variable: exchange C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 180 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 212 行.
+NOTIC: [8] Undefined variable: order_state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 213 行.
+NOTIC: [8] Undefined index: pay_for C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\036cb8355396f4e7e1609afcccfb5b5d.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-12-20T15:56:03+08:00 ] 117.30.167.211 /index.php/home/index/personal_coupon/flag/choose.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0148s ]
+SQL: SELECT user_coupon.*,coupon.coupon_name,coupon.deadline FROM `user_coupon` LEFT JOIN coupon ON coupon.id = user_coupon.coupon_id  WHERE ( user_openid='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND coupon.status = 'N' AND user_coupon.status = 'N' AND coupon.deadline > '2017-12-20' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-12-20T15:56:10+08:00 ] 117.30.167.211 /index.php/home/index/all_orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND paied = 1 AND (state = 0 OR state = 1 OR (pay_for = 0 AND state = 2)) ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-12-20T15:56:12+08:00 ] 117.30.167.211 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1242 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-12-20T15:56:14+08:00 ] 117.30.167.211 /index.php/home/index/cancellation_of_order.html?o_id=293
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0085s ]
+SQL: SELECT delivery.name AS delivery_name,delivery.phone AS delivery_phone,order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=293 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-12-20T15:56:25+08:00 ] 101.226.233.148 /index.php/home/index/share_login/share_openid/oPL7sv1KrDWedabuNVkNSB2Ct2ZE.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-12-20T15:56:29+08:00 ] 61.154.228.208 /index.php/home/index/share_login/share_openid/oPL7sv1KrDWedabuNVkNSB2Ct2ZE.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-12-20T15:56:31+08:00 ] 117.30.167.211 /index.php/home/index/share_login/share_openid/oPL7sv1KrDWedabuNVkNSB2Ct2ZE.html?from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-12-20T15:56:33+08:00 ] 117.30.167.211 /index.php/home/index/share?code=081ChtCe0VM4CA1ax3De0LNpCe0ChtCe&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv1KrDWedabuNVkNSB2Ct2ZE" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND share_openid ='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv1KrDWedabuNVkNSB2Ct2ZE','oPL7sv1KrDWedabuNVkNSB2Ct2ZE','14','0',NULL,NULL,NULL,'10','2017-12-20 03:56:33') [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-12-20T15:56:38+08:00 ] 117.30.167.211 /index.php/home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-12-20T15:56:38+08:00 ] 117.30.167.211 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-12-20T15:57:04+08:00 ] 113.96.219.250 /index.php/home/index/share_login/share_openid/oPL7sv1KrDWedabuNVkNSB2Ct2ZE.html?from=singlemessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-12-20T15:57:05+08:00 ] 113.96.219.250 /index.php/home/index/share?code=021EP06t10Domb0JCp3t16zM5t1EP06O&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv3FXZDaicsAqySTqe-6an98' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv1KrDWedabuNVkNSB2Ct2ZE" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv3FXZDaicsAqySTqe-6an98' AND share_openid ='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user_coupon` (`user_openid`,`share_openid`,`coupon_id`,`type`,`up`,`down`,`reach`,`value`,`date`) VALUES ('oPL7sv3FXZDaicsAqySTqe-6an98','oPL7sv1KrDWedabuNVkNSB2Ct2ZE','14','0',NULL,NULL,NULL,'10','2017-12-20 03:57:05') [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: flag C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\b813aae94b2ddf4a4ed7e36f5c3a1a86.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-12-20T15:57:14+08:00 ] 120.204.17.70 /index.php/home/index/cancellation_of_order.html?o_id=293
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0092s ]
+SQL: SELECT delivery.name AS delivery_name,delivery.phone AS delivery_phone,order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN delivery ON delivery.id = order.delivery_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=293 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=107 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-12-20T15:57:25+08:00 ] 120.204.17.73 /index.php/home/index/share_login/share_openid/oPL7sv1KrDWedabuNVkNSB2Ct2ZE.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-12-20T15:57:30+08:00 ] 61.154.228.208 /index.php/home/index/share?code=081xpKKP0X9bTb2CzHKP0rwwKP0xpKKJ&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv3FXZDaicsAqySTqe-6an98' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" AND stage = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_coupon` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user_coupon` LEFT JOIN consumer ON consumer.openid = user_coupon.user_openid  WHERE ( user_coupon.share_openid = "oPL7sv1KrDWedabuNVkNSB2Ct2ZE" AND user_coupon.coupon_id = 14 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_coupon` WHERE ( user_openid ='oPL7sv3FXZDaicsAqySTqe-6an98' AND share_openid ='oPL7sv1KrDWedabuNVkNSB2Ct2ZE' AND coupon_id = 14 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-12-20T17:01:44+08:00 ] 47.93.112.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-12-20T17:15:48+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-12-20T17:17:08+08:00 ] 140.205.201.44 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-12-20T17:24:27+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-12-20T17:29:11+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-12-20T17:33:23+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-12-20T17:40:13+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-12-20T18:02:55+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-20T18:16:25+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-12-20T18:16:53+08:00 ] 140.205.201.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-12-20T21:00:43+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-12-20T21:09:44+08:00 ] 140.205.201.30 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-12-20T21:15:53+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-12-20T21:20:28+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-12-20T21:25:21+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-12-20T21:35:17+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-12-20T21:41:10+08:00 ] 123.59.146.153 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-12-20T21:55:21+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-12-20T21:59:29+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-12-20T22:00:37+08:00 ] 140.205.201.30 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+

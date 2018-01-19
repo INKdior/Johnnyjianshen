@@ -1,0 +1,21 @@
+input[type="text"]{
+ 	background:transparent;
+	border:0;
+  	font-size: .28rem;
+  	color: #fff;
+  	line-height: .7rem;
+	text-align: right;
+}
+select { 
+
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    line-height: .7rem;
+    text-align: right;
+    height: .7rem;
+  
+    -moz-appearance:none; /* Firefox */  
+    -webkit-appearance:none; /* Safari ºÍ Chrome */  
+}  

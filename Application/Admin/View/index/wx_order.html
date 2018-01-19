@@ -1,0 +1,78 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">微信订单</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <div class="table_con">
+        <table>
+            <volist name="data" id="vo">
+              <?php 
+              if($key == 'refund_count') {
+                echo "<tr>";
+                echo "<td>退还次数</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'refund_fee') {
+                echo "<tr>";
+                echo "<td>退还费用</td><td>￥".($vo/100)."元</td>";
+                echo "</tr>";
+              } else if($key == 'trade_state') {
+                if($vo == 'NOTPAY') {
+                  echo "<tr>";
+                  echo "<td>状态</td><td>订单未支付</td>";
+                  echo "</tr>";
+                }
+              } else if($key == 'refund_recv_accout_0') {
+                echo "<tr>";
+                echo "<td>退还账户</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'refund_status_0') {
+                echo "<tr>";
+                echo "<td>退还状态</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'refund_success_time_0') {
+                echo "<tr>";
+                echo "<td>退还时间</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'time_end') {
+                echo "<tr>";
+                echo "<td>付款时间</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'return_msg') {
+                echo "<tr>";
+                echo "<td>消息</td><td>$vo</td>";
+                echo "</tr>";
+              } else if($key == 'total_fee') {
+                echo "<tr>";
+                echo "<td>支付总费用</td><td>￥".($vo/100)."元</td>";
+                echo "</tr>";
+              }
+              ?>
+              <!-- <tr>
+              <td>{$key}</td>
+              <td>{$vo}</td> -->  
+           </volist>
+      </table>
+         <div class="pagelist" >{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+
+<script type="text/javascript">
+function del(url){
+if(confirm("确认删除吗")){
+   window.location.href=url; 
+  }
+}
+</script>
+
+
+
+
+
+

@@ -1,0 +1,2144 @@
+[ 2017-10-09T10:57:36+08:00 ] 120.41.148.165 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-10-09T10:57:40+08:00 ] 120.41.148.165 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-10-09T10:57:40+08:00 ] 120.41.148.165 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-10-09T10:57:47+08:00 ] 120.41.148.165 /index.php/Admin/index/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `goods` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-10-09T10:57:51+08:00 ] 120.41.148.165 /index.php/Admin/index/add_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: data C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 451 行.
+NOTIC: [8] Undefined index: priceWay C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 452 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-10-09T10:58:03+08:00 ] 120.41.148.165 /index.php/Admin/index/add_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined index: data C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 451 行.
+NOTIC: [8] Undefined index: priceWay C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 452 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-10-09T10:59:14+08:00 ] 120.41.148.165 /index.php/Admin/index/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-10-09T11:00:22+08:00 ] 120.41.148.165 /index.php/Admin/index/add_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0112s ]
+SQL: INSERT INTO `goods` (`name`,`picture_url`,`headline`,`conf_infor`,`abstract`,`ps_price`) VALUES ('杠铃','/Uploads/2017-10-09/1507517954.jpg','123','123','123','20') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0098s ]
+SQL: INSERT INTO `g_price` (`time`,`price`,`g_id`) VALUES ('3','15','25') [ RunTime:0.0003s ]
+SQL: INSERT INTO `g_price` (`time`,`price`,`g_id`) VALUES ('5','20','25') [ RunTime:0.0002s ]
+SQL: INSERT INTO `g_price` (`time`,`price`,`g_id`) VALUES ('10','100','25') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-10-09T11:00:23+08:00 ] 120.41.148.165 /index.php/Admin/index/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `goods` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-10-09T11:00:30+08:00 ] 120.41.148.165 /index.php/admin/index/goodstails/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `goods` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_price.g_id = "25" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-10-09T11:00:43+08:00 ] 120.41.148.165 /index.php/Admin/index/re_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0114s ]
+SQL: UPDATE `goods` SET `id`='25',`name`='杠铃',`picture_url`='/Uploads/2017-10-09/1507517954.jpg',`headline`='杠铃',`conf_infor`='杠铃',`abstract`='杠铃',`ps_price`='20 ' WHERE ( id=25 ) [ RunTime:0.0004s ]
+
+[ 2017-10-09T11:00:43+08:00 ] 120.41.148.165 /index.php/Admin/index/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 436 行.
+SQL: SELECT * FROM `goods` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\d3e721321d76840cf724050d67dbdd87.php 第 339 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-10-09T11:08:32+08:00 ] 120.41.148.165 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-10-09T11:08:51+08:00 ] 120.41.148.165 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-10-09T11:08:51+08:00 ] 120.41.148.165 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-10-09T11:09:05+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-10-09T11:09:13+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/158.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0126s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=158 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0085s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507516795" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-10-09T11:09:31+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0085s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0077s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-10-09T11:09:38+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0112s ]
+SQL: UPDATE `order` SET `state`='1',`order_id`='1507518382' WHERE ( order_id = "1507518382" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-10-09T11:09:53+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0177s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0070s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0068s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-10-09T11:10:34+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0116s ]
+SQL: UPDATE `order_state` SET `order_id`='1507518382',`or_time`='2017-10-08' WHERE ( order_id = "1507518382" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-10-09T11:10:36+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0109s ]
+SQL: UPDATE `order_state` SET `order_id`='1507518382',`xd_time`='2017-10-11' WHERE ( order_id = "1507518382" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-10-09T11:10:58+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0149s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507518382' WHERE ( order_id = "1507518382" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-10-09T11:11:04+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0151s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0086s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0093s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-10-09T11:11:32+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0118s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0083s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0103s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-10-09T11:11:41+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT `user`,`out_trade_no`,`ps_price`,`price` FROM `order` LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+SQL: UPDATE `order` SET `out_refund_no`='refu150751870015075187001507518700150751870015075187001507518700' WHERE ( order.order_id = "1507518382" ) [ RunTime:0.0005s ]
+SQL: UPDATE `order` SET `state`='7',`order_id`='1507518382',`deposit`='0' WHERE ( order_id = "1507518382" ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-10-09T11:12:17+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0123s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0110s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0088s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-10-09T11:12:24+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0121s ]
+SQL: SELECT `user`,`out_trade_no`,`ps_price`,`price` FROM `order` LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+SQL: UPDATE `order` SET `out_refund_no`='refu150751874315075187431507518743150751874315075187431507518743' WHERE ( order.order_id = "1507518467" ) [ RunTime:0.0006s ]
+SQL: UPDATE `order` SET `state`='5',`order_id`='1507518467' WHERE ( order_id = "1507518467" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-10-09T11:13:06+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0132s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507518467' WHERE ( order_id = "1507518467" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-10-09T11:23:45+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-10-09T11:23:48+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0109s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0078s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0070s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-10-09T11:23:50+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0119s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507518382' WHERE ( order_id = "1507518382" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-10-09T11:31:06+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0084s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-10-09T11:34:57+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/157.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0114s ]
+SQL: SELECT order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=157 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0082s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0078s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-10-09T11:35:00+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0154s ]
+SQL: SELECT `user`,`out_trade_no`,`ps_price`,`price` FROM `order` LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-10-09T11:35:05+08:00 ] 120.41.148.165 /index.php/Admin/index/wx_order/order_id/1506863973.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT `user`,`out_trade_no`,`ps_price`,`price` FROM `order` LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Array to string conversion C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\1a2991464b46fd95de35d9c09a4ab9bb.php 第 316 行.
+NOTIC: [8] Undefined variable: page C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\1a2991464b46fd95de35d9c09a4ab9bb.php 第 319 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-10-09T11:50:18+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/157.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0109s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=157 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0068s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0067s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-10-09T11:50:26+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/158.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0110s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=158 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0072s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507516795" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0067s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-10-09T11:50:31+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0105s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0068s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0072s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-10-09T11:50:37+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0103s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0071s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-10-09T11:51:37+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/159.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=159 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0075s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518382" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0104s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-10-09T11:52:14+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/161.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0166s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=161 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0091s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518852" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0074s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-10-09T11:52:21+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-10-09T11:52:24+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0070s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0068s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-10-09T11:52:28+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/158.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0104s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=158 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0066s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507516795" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0069s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=24 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-10-09T11:52:38+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0133s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0075s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0079s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-10-09T11:53:01+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0112s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0081s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+NOTIC: [8] Undefined index: exchangeTo C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-10-09T11:53:18+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0142s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0088s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0082s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-10-09T13:18:43+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0136s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0079s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0086s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-10-09T13:28:17+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0078s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0113s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-10-09T13:40:55+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0127s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0120s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-10-09T13:40:58+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-10-09T13:41:15+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/161.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0149s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=161 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0087s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518852" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0082s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-10-09T13:43:18+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/161.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0126s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0070s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518852" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0072s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-10-09T13:43:27+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0130s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0120s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0104s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-10-09T13:43:28+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0144s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id= ) LIMIT 1  
+
+[ 2017-10-09T13:44:24+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/160.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0115s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=160 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0247s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0107s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-10-09T13:44:25+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0149s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0104s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0110s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-10-09T13:44:27+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507518467.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0108s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507518467 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0087s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-10-09T13:44:29+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0124s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0096s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0119s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-10-09T13:44:30+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507518467.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0147s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507518467 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0104s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0080s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-10-09T13:44:32+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0086s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0079s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-10-09T14:02:02+08:00 ] 120.41.148.165 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-10-09T15:02:06+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0108s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507519851' WHERE ( order_id = "1507519851" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-10-09T15:08:14+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0121s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0071s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0080s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-10-09T15:08:26+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0123s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0085s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-10-09T15:08:44+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0112s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0131s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0113s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-10-09T15:08:57+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-10-09T15:08:58+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-10-09T15:09:20+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0107s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0074s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-10-09T15:09:32+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0114s ]
+SQL: SELECT `user`,`out_trade_no`,`ps_price`,`price` FROM `order` LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be integer, string given C:\xampp\htdocs\jianshen\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 157 行.
+NOTIC: [8] Undefined index: openid C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 244 行.
+SQL: UPDATE `order` SET `out_refund_no`='refu150753297215075329721507532972150753297215075329721507532972' WHERE ( order.order_id = "1507519851" ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-10-09T15:13:47+08:00 ] 120.41.148.165 /index.php/Admin/index/change_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: UPDATE `order` SET `state`='2',`order_id`='1507519851' WHERE ( order_id = "1507519851" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-10-09T16:22:08+08:00 ] 120.41.148.165 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-10-09T16:22:12+08:00 ] 120.41.148.165 /index.php/admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( (`name` = '123') AND (`pwd` = '202cb962ac59075b964b07152d234b70') ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-10-09T16:22:12+08:00 ] 120.41.148.165 /index.php/admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-10-09T16:22:14+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-10-09T16:22:27+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0075s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-10-09T16:22:38+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0105s ]
+SQL: UPDATE `order_state` SET `order_id`='1507519851',`xd_time`='2017-10-11' WHERE ( order_id = "1507519851" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-10-09T16:22:40+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0112s ]
+SQL: UPDATE `order_state` SET `order_id`='1507519851',`or_time`='2017-10-08' WHERE ( order_id = "1507519851" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-10-09T16:22:43+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0154s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0095s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0083s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-10-09T16:23:03+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0121s ]
+SQL: UPDATE `order_state` SET `order_id`='1507519851',`xd_time`='2017-10-13' WHERE ( order_id = "1507519851" ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-10-09T16:23:39+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0124s ]
+SQL: UPDATE `order_state` SET `order_id`='1507519851',`xd_time`='2017-10-12' WHERE ( order_id = "1507519851" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-10-09T16:23:43+08:00 ] 120.41.148.165 /index.php/Admin/index/update_date.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0105s ]
+SQL: UPDATE `order_state` SET `order_id`='1507519851',`xd_time`='2017-10-11' WHERE ( order_id = "1507519851" ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-10-09T16:28:19+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0118s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0075s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0077s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-10-09T16:29:24+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0072s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0068s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-10-09T17:16:22+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507518467.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507518467 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0073s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507518467" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0070s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-10-09T17:16:24+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/order_id/1507519851.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0105s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.order_id=1507519851 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0076s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0099s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-10-09T17:16:29+08:00 ] 120.41.148.165 /index.php/Admin/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: pagecount C:\xampp\htdocs\jianshen\Application\Admin\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT order.prompt,consumer.wxname,order.id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state FROM `order` LEFT JOIN consumer ON consumer.openid = order.user  ORDER BY or_time LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: state C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\455dd59e7ffe0d0ea2f45d03db7d85a9.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-10-09T17:16:33+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/155.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0137s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=155 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0075s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1506743450" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0084s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-10-09T17:16:37+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/157.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0115s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=157 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0071s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1506863973" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0067s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=26 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-10-09T17:38:07+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/149.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0155s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=149 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0095s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1506675633" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0085s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-10-09T17:38:14+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/158.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0111s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=158 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0074s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507516795" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0097s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=24 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-10-09T17:38:29+08:00 ] 120.41.148.165 /index.php/admin/index/order_details/id/163.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0156s ]
+SQL: SELECT order.exchange,order.exchangeTo,order.express,order.prompt,consumer.wxname,order.g_price_id,order.order_id,order.price,order.or_time,order.addr,order.receiver,order.tel,order.state,goods.name,goods.picture_url,goods.abstract FROM `order` LEFT JOIN consumer ON consumer.openid = order.user LEFT JOIN goods ON goods.id = order.goods_id  WHERE ( order.id=163 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order_state` [ RunTime:0.0114s ]
+SQL: SELECT `xd_time`,`or_time` FROM `order_state` WHERE ( order_state.order_id = "1507519851" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0099s ]
+SQL: SELECT g_price.time,g_price.price FROM `g_price` WHERE ( g_price.id=28 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Admin\95b56450c16551f1043cfb7279c118f7.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+

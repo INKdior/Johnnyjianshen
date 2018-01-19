@@ -1,0 +1,63 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">优惠卷管理</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+
+    <div class="add_cp">
+        <form method="post" action="{:U('index/coupon_details')}" onsubmit="" id='subform'>
+            <input class="btn btn-default btn-sm" type="submit" value="添加优惠卷" /> 
+        </form>
+    </div>
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td>编号</td>
+                <td>优惠卷名字</td>
+                <td>图</td>
+                <!-- <td>金额</td> -->
+                <td>截止期限</td>
+                <td>操作</td>
+                <td>状态</td>
+            </tr>
+
+            <volist name="data" id="vo">
+                <tr>
+                    <td>{$vo['id']}</td>
+                    <td>{$vo['coupon_name']}</td>
+                    <td><img width='100px' height='100px'src="{$vo['imgurl']}">
+                    <!-- <td>{$vo['price']}</td> -->
+                    <td>{$vo['deadline']}</td>
+                    <td  width="20%">
+                        <a class="bj_btn" href="{:U('admin/index/coupon_details',array('id'=>$vo['id']))}">修改</a>
+                        <a id="del" class="del_btn" href="javascript:" onclick=del("{:U('admin/index/del',array('id'=>$vo['id'],'key'=>'coupon'))}")>删除</a>    
+                    </td>
+                    <td><?= ($vo['status'] == 'N') ? '使用中' : '已作废' ?></td>
+               </tr>
+           </volist>
+      </table>
+         <div class="pagelist" >{$page}</div>
+    </div>
+</div><!-- /.main-content -->
+
+<script type="text/javascript">
+function del(url){
+if(confirm("确认删除吗")){
+   window.location.href=url; 
+  }
+}
+</script>
+
+
+
+
+
+

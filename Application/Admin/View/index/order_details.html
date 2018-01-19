@@ -1,0 +1,266 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            // try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">关于我们</li>
+        </ul>
+    </div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/xg_banner')}" id='subform' enctype="multipart/form-data">
+            <input type="hidden" name="id" value="{$data['id']}">
+                <table>
+                     <tr>
+                        <td width="5%">用户：</td>
+                        <td width="80%"><label>{$data['wxname']}</label></td>
+                    </tr>       
+                    <tr>
+                        <td width="20%">订单号：</td> 
+                        <td width="80%"><label id="order_id">{$data['order_id']}</label></td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">图片：</td> 
+                        <td width="80%"><img width="150px" height="100px" src="{$data['picture_url']}"></td> 
+                    </tr> 
+<!--                     <tr>
+                        <td width="20%">开始日期：</td>
+                        <td width="80%">
+                            <input style="margin:5px;width:180px;" type="text" id="start_date" value="{$order_state['or_time']}">
+                            <input style="margin:5px;width:60px;" class="update btn btn-primary btn-xs" type="button" value="更新" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">截止日期：</td>
+                        <td width="80%">
+                            <input style="margin:5px;width:180px;" type="text" id="end_date" value="{$order_state['xd_time']}">
+                            <input style="margin:5px;width:60px;" class="update btn btn-primary btn-xs" type="button" value="更新" />
+                        </td>
+                    </tr> -->
+    <!--                 <tr>
+                        <td width="20%">设定天数</td>
+                        <td width="80"><label id="days"></label></td>
+                    </tr> -->
+                    <tr>
+                        <td width="20%">剩余天数：</td>
+                        <td width="80"><label id="rest"></label></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">下单时间：</td>
+                        <td width="80%"><label>{$data['or_time']}</label></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">收费方式</td>
+                        <td width="80%"><label><?php echo isset($g_price) ? $g_price['time'].'天'.$g_price['price'].'元' : '选择购买' ?></label></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">是否催单：</td>
+                        <td width="80%"><label><?= $data['prompt'] == '1' ? '客户催单' : '未催单' ?></label></td>
+                    </tr>
+         <!--            <tr>
+                        <td width="20%">查看微信订单详情：</td>
+                        <td width="80%"><label class="check_wx_order"><a href="javascript:;">查看</a></label></td>
+                    </tr>  -->
+                    <tr>
+                        <td width="20%">来自转租：</td>
+                        <td width="80"><a href="{:U('admin/index/order_details',array('order_id' => $data['exchange']))}"><label>{$data['exchange']}</label></a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">转租给：</td>
+                        <td width="80"><a href="{:U('admin/index/order_details',array('order_id' => $data['exchangeto']))}"><label>{$data['exchangeto']}</label></a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">价格：</td> 
+                        <td width="80%"><label>{$data['price']}</label></td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">收货人：</td> 
+                        <td width="80%"><label>{$data['receiver']}</label></td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">押金：</td> 
+                        <td width="80%"><label>{$data['ps_price']}</label></td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">配送费：</td> 
+                        <td width="80%"><label>{$data['delivery']}</label></td>
+                    </tr>
+                    <tr>
+                        <td width="20%">电话：</td> 
+                        <td width="80%"><label>{$data['tel']}</label></td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">地址：</td>
+                        <td width="80%"><label>{$data['addr']}</label></td>
+                    </tr>
+ <!--                    <tr>
+                        <td width="20%">状态：</td> 
+                        <td width="80%"><label value="{$data['state']}" id="cur_state">{$data['state_title']}</label>
+                            <label value="1" class="CState"><a href="javascript:;" >配送中</a></label>
+                            <label value="2" class="CState"><a href="javascript:;">配送完成</a></label>
+                            <label value="5" class="CState"><a href="javascript:;">取消订单并退款</a></label>
+                            <label value="7" class="CState"><a href="javascript:;">还货成功(返还扣除配送费押金)</a></label>
+                            <br>&nbsp;&nbsp;
+                            <label value="same" class="CState"><a href="javascript:;">同一小区转租(返还全额押金)</a></label>
+                            <label value="diff" class="CState"><a href="javascript:;">不同小区转租(返还扣除配送费押金)</a></label>
+                        </td>
+                    </tr>  -->
+                    <tr>
+                        <td width="20%">货物名称：</td> 
+                        <td width="80%"><label>{$data['name']}</td>
+                    </tr> 
+                    <tr>
+                        <td width="20%">货物描述：</td> 
+                        <td width="80%"><label>{$data['abstract']}</td>
+                    </tr> 
+                        <td colspan="2" align="center" valign="middle">
+                            <!-- <input class="btn btn-primary btn-sm" style="width:6%;" type="submit" value="提交" /> -->
+                        </td>
+                    </tr>
+                </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    laydate.render({
+        elem: '#start_date',
+    });
+    laydate.render({
+        elem: '#end_date',
+    });
+    $('.check_wx_order').click(function() {
+        window.location.href = "{:U('Admin/index/wx_order/order_id/'.$data["order_id"])}";
+    })
+    function restDate() {
+        var endDate = new Date($('#end_date').val());
+        var startDate = new Date($('#start_date').val());
+        var curDate = new Date();
+        var rest = Math.ceil(endDate.valueOf() - curDate.valueOf());
+        var days = Math.ceil(endDate.valueOf() - startDate.valueOf());
+        days = days/24/60/60/1000;
+        rest = rest/24/60/60/1000;
+        rest = Math.ceil(rest);
+        if(days < 0) {
+            days = Math.abs(days);
+            $('#days').text('超出'+days+'天');
+        } else {
+            if(String(days) != 'NaN') {
+                $('#days').text(days+'天');
+            }
+        }
+        if(rest < 0) {
+            rest = Math.abs(rest);
+            $('#rest').text('超出'+rest+'天');    
+        } else {
+            if(String(rest) != 'NaN') {
+                $('#rest').text(rest+'天');
+            }
+        }
+    }
+    restDate();
+    $('.update').click(function() {
+        var date = $(this).prev().val();
+        var key = $(this).prev().attr('id');
+        if(key == 'start_date') {
+            var data = {
+                'or_time' :date,
+                order_id: $('#order_id').text(),
+            }
+        } else {
+            var data = {
+                'xd_time' :date,
+                order_id: $('#order_id').text(),
+            }
+        }
+        $.ajax({
+            url: "{:U('index/update_date')}",
+            type: 'post',
+            dataType: 'json',
+            data: data,
+            complete: function() {
+                alert('更新成功');
+                restDate();
+            }
+        })
+    })
+    $('.CState').on('click', function() {
+        var state = $(this).attr('value');
+        var prev_state = "<?=$data['state']?>";
+        var text = $(this).text();
+        var express = "<?=$data['express']?>";
+        if(state == '5') {
+            if(prev_state != '4') {
+                alert('该用户未有取消订单操作');
+                return;
+            } else {
+                if(!confirm('是否向该用户退款')) {
+                    return;
+                }
+            }
+        } else if(state == 'same') {
+            if(prev_state != '8') {
+                alert('该用户未有申请转租操作');
+                return;
+            } else {
+                if(!confirm('是否向该用户返回全额押金')) {
+                    return;
+                }
+            }
+        } else if(state == 'diff') {
+            if(prev_state != '8') {
+                alert('该用户未有申请转租操作');
+                return;
+            } else {
+                if(!confirm('是否向该用户返回扣除换货配送费押金')) {
+                    return;
+                }
+            }
+        } else if(state == '7') {
+            if(prev_state != '6') {
+                alert('该用户未有申请还货操作');
+                return;
+            } else {
+                if(!confirm('是否向该用户返回押金')) {
+                    return;
+                }
+            }
+        }
+        if(prev_state > state) {
+            alert('不能对用户进行该操作');
+            return;
+        }
+        $.ajax({
+            url: "{:U('index/change_state')}",
+            type: 'post',
+            dataType: 'json',
+            data: {state: state,order_id :$('#order_id').text()},
+            success: function(data) {
+                if(data == 'success') {
+                    alert('修改成功');
+                    // console.log(data);
+                    $('#cur_state').text(text);
+                } else {
+                    if(data.error == '0') {
+                        alert(data.msg);
+                    }
+                }
+            }
+        })
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "微软雅黑";
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.tc{
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.container{
+	background: #fddc35;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 1.2rem;
+	line-height: 1rem;
+	font-size: .32rem;
+	color: #d4d3d3;
+	background: #000000;
+	padding:0 5% 0 5%;
+	line-height: 1.5rem;
+}
+.header img{
+	vertical-align: middle;
+}
+.header p{
+	width: 33.33333%;
+}
+.img-show,.main,.footer{
+	width: 86%;
+	height: 38%;
+	margin-left: 7%;
+	overflow: hidden;
+}
+.img-show img{
+	height: 100%;
+	width: 100%;
+}
+.main{
+	background: #ffe463;
+	height: 21%;
+	border-radius: .2rem;
+}
+.main-top{
+	height: 40%;
+	width: 92%;
+	margin: 3% 4% 0;
+	border-radius: .1rem;
+	background: #ffffff;
+}
+.main-top img{
+	left: 81%;
+	top: 11%;
+	opacity: .4;
+	height: 80%;
+}
+.main-top-text{
+	font-size: .2rem;
+	color: #aaaaaa;
+	padding-top: 2%;
+	padding-left: 9%;
+	line-height: .3rem;
+}
+.price{
+	color: #fe0000;
+	font-size: .6rem;
+	height: 100%;
+	width: 18%;
+	line-height: 1.1rem;
+}
+.price .money{
+	font-size: .4rem;
+}
+.main-center{
+	font-size: .2rem;
+	height: .65rem;
+	line-height: .65rem;
+	color: #aaaaaa;
+}
+.main-center span{
+	color: #fe0000;
+}
+.main-bottom{
+	width: 60%;
+	height: .5rem;
+	line-height: .5rem;
+	font-size: .3rem;
+	margin-left: 20%;
+	background: #fe0000;
+	border-radius: .1rem;
+	color: #fff;
+	clear: both;
+}
+.footer{
+	margin-top:9%;
+	background: #ffe463;
+	border-radius: .2rem;
+	height: 33%;
+	overflow-y: auto;
+}
+.footer .first,.footer .second{
+	left: 4%;
+	top: 11%;
+	width: 28%;
+	opacity: .5;
+}
+.footer .second{
+	left: 68%;
+}
+.footer-top{
+	font-size: .28rem;
+	height: .55rem;
+	line-height: .7rem;
+	color: #363523;
+}
+.footer-text{
+	height: .72rem;
+}
+.footer-text img{
+	width: 13%;
+	left: 11%;
+	top: 22%;
+}
+.footer-text .pr{
+	padding-left: 13%;
+}
+.big-text{
+	font-size: .2rem;
+}
+.small-text{
+	font-size: .18rem;
+	color: #828884;
+}
+.footer-text .fr{
+	font-size: .24rem;
+	line-height: .72rem;
+	margin-right: 7%;
+}
+.line{
+	height: 1px;
+	width: 88%;
+	background: #ccc;
+	opacity: .5;
+	margin-left: 5%;
+}

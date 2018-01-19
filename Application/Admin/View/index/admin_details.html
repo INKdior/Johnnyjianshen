@@ -1,0 +1,56 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul>
+    </div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/update_admin')}" onsubmit="" id='subform' enctype="multipart/form-data">
+            <input type="hidden" name="id" value="{$data['id']}">
+            <table>
+                <tr>
+                    <td width="10%">姓名：</td>
+                    <td ><input name="name" type="text" value="{$data['name']}"></td>
+                </tr>
+                <tr>
+                    <td>权限：</td>
+                    <td>
+                        <select name="level" style="margin-left:7px;width:20%" class="form-control"> 
+                            <option value="0">配送员</option>
+                            <option value="1">管理员</option> 
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" id="sub" value="提交" style=" border:none;background-color:#0066FF; color:#ffffff; width:100px; 
+                        text-align:center; height:40px; line-height:37px;" />
+                        <input type="button" id="change_pwd" value="更改密码" style=" border:none;background-color:#0066FF; color:#ffffff; width:100px; 
+                        text-align:center; height:40px; line-height:37px;" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    var data = <?php echo json_encode($data)?>;
+    $('[name="level"]').val(data.level);
+    $('#sub').on('click', function() {
+        $('#subform').submit();
+    })
+    $('#change_pwd').on('click', function() {
+        window.location.href = '{:U("Admin/index/change_pwd/id/".$data['id'])}';
+    })
+</script>
+
+
+
+
+

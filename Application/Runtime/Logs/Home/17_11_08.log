@@ -1,0 +1,1503 @@
+[ 2017-11-08T01:42:42+08:00 ] 119.23.139.140 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2017-11-08T02:33:14+08:00 ] 123.151.42.61 http://www.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-11-08T06:17:12+08:00 ] 158.85.81.125 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008588s ]
+
+[ 2017-11-08T12:14:00+08:00 ] 187.36.66.89 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010778s ]
+
+[ 2017-11-08T13:49:13+08:00 ] 155.94.88.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-11-08T14:30:37+08:00 ] 141.212.122.81 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-11-08T15:52:22+08:00 ] 60.191.38.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-11-08T16:59:55+08:00 ] 47.93.112.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-11-08T17:05:20+08:00 ] 211.97.128.234 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: code C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 374 行.
+NOTIC: [8] Undefined index: state C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-11-08T17:05:21+08:00 ] 211.97.128.234 /index.php/home/index/personal_center?code=001Jo38f0LzQ8B1II0af0sWa8f0Jo38T&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-11-08T17:05:23+08:00 ] 211.97.128.234 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-11-08T17:05:24+08:00 ] 211.97.128.234 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-11-08T17:05:25+08:00 ] 211.97.128.234 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-11-08T17:05:26+08:00 ] 211.97.128.234 /index.php/home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND paied =0 ) ORDER BY or_time desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-11-08T17:05:28+08:00 ] 211.97.128.234 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-11-08T17:05:31+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0087s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 241 行.
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-11-08T17:05:50+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0085s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=206 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 241 行.
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-11-08T17:05:52+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=207
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0081s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=207 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 241 行.
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-11-08T17:07:42+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0096s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 242 行.
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-11-08T17:07:45+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0077s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=206 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 242 行.
+NOTIC: [8] Undefined variable: openid C:\xampp\htdocs\jianshen\Application\Runtime\Cache\Home\084d388fa327e510159bc145dd39cb96.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-11-08T17:09:34+08:00 ] 211.97.128.234 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-11-08T17:09:35+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=207
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0105s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=207 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-11-08T17:09:38+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0080s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-11-08T17:10:46+08:00 ] 120.41.16.162 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-11-08T17:10:49+08:00 ] 120.41.16.162 /index.php/home/index/get_unionid?code=061zUM9g247PYB0EY8ag2Ebt9g2zUM9Z&state=dakang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-08T17:10:49+08:00 ] 120.41.16.162 /index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `banner`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-11-08T17:10:50+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_price?product=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `g_price` WHERE ( g_id=15 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-11-08T17:10:52+08:00 ] 120.41.16.162 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-11-08T17:10:53+08:00 ] 120.41.16.162 /index.php/home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND paied =0 ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-11-08T17:10:55+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-11-08T17:10:56+08:00 ] 120.41.16.162 /index.php/home/index/cancellation_of_order.html?o_id=207
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0091s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=207 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-11-08T17:10:59+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-11-08T17:11:00+08:00 ] 120.41.16.162 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0077s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-11-08T17:11:31+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-11-08T17:11:33+08:00 ] 120.41.16.162 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0081s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-11-08T17:12:00+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-11-08T17:12:01+08:00 ] 120.41.16.162 /index.php/home/index/cancellation_of_order.html?o_id=206
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0087s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=206 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-11-08T17:12:04+08:00 ] 120.41.16.162 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-11-08T17:12:06+08:00 ] 120.41.16.162 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0084s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-11-08T17:12:17+08:00 ] 211.97.128.234 /index.php/Home/index/personal_center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-11-08T17:12:19+08:00 ] 211.97.128.234 /index.php/home/index/all_orders.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `consumer` WHERE ( openid='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' AND paied =0 ) ORDER BY or_time desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-11-08T17:12:20+08:00 ] 211.97.128.234 /index.php/Home/Index/ajax_orders?product=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `order` WHERE ( user='oPL7sv07Q2y0hlsFaUbcsGFUyYfM' ) ORDER BY or_time desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: re C:\xampp\htdocs\jianshen\Application\Home\Controller\IndexController.class.php 第 1162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-11-08T17:12:22+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0082s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-11-08T17:12:36+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0078s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-11-08T17:12:54+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0103s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-11-08T17:13:14+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0078s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-11-08T17:13:33+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0088s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-11-08T17:14:05+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0074s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-11-08T17:14:33+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0220s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-11-08T17:15:08+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0104s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-11-08T17:15:15+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0086s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-11-08T17:15:17+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0078s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=204 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-11-08T17:15:20+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0117s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=204 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-11-08T17:15:27+08:00 ] 120.204.17.67 /index.php/home/index/cancellation_of_order.html?o_id=204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0100s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=204 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-11-08T17:15:39+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0086s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=204 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-11-08T17:15:44+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0092s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=205 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-11-08T17:15:52+08:00 ] 211.97.128.234 /index.php/home/index/cancellation_of_order.html?o_id=207
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `coupon` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `coupon` WHERE ( status = "N" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0090s ]
+SQL: SELECT order.user,order.pay_for,order.paied,goods.delivery,order.express,order.goods_id,order.addr,order.receiver,order.tel,order.g_price_id,order.state,order.price,order.order_id,order.or_time,goods.name,goods.headline,goods.conf_infor,goods.abstract,os.freight,os.xd_time,goods.picture_url FROM `order` LEFT JOIN goods ON goods.id = order.goods_id LEFT JOIN order_state AS os ON os.order_id = order.order_id  WHERE ( order.id=207 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `g_price` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `g_price` WHERE ( id=69 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-11-08T17:31:10+08:00 ] 163.177.13.2 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-11-08T19:10:23+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-11-08T19:18:40+08:00 ] 209.126.136.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-11-08T20:17:36+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-11-08T20:17:36+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-11-08T20:17:52+08:00 ] 140.205.225.204 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-11-08T20:17:58+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-11-08T20:18:11+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-11-08T20:18:18+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-11-08T20:18:19+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-11-08T20:18:47+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-11-08T20:18:59+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-11-08T20:19:05+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-11-08T20:19:15+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-11-08T20:21:48+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-11-08T20:21:54+08:00 ] 140.205.225.204 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-11-08T23:29:27+08:00 ] 121.69.35.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003771s ]
+

@@ -1,0 +1,249 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+          try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">个人信息</li>
+        </ul>
+    </div>
+    <div class="table_con">
+        <form method="post"  action="{:U('index/re_goods')}" onsubmit="" id='subform' enctype="multipart/form-data">
+            <input type="hidden" name="id" value="{$data['id']}">
+            <table>
+                <tr>
+                    <td width="10%">商品名：</td>
+                    <td ><input name="name" type="text" value="{$data['name']}"></td>
+                </tr>
+                <tr>
+                    <td>图片：</td>
+                     <td >
+                        <img style="float:left;margin:10px" width='150px' height='100px' src="{$data['picture_url']}">
+                        <input type="button" style="width:10%;margin-top: 70px" class="btn btn-sm" id="file" value="选择文件"/>
+                        <input id="uploadFile" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" value="{$data['picture_url']}" name="picture_url" >
+                        <label>(规格：338x184)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>产品详情：<br><label>(规格：352x206)</label></td>
+                    <td>
+                        <img style="float:left;margin:10px" width='150px' height='100px' src="<?= empty($data['details_picture1']) ? '__PUBLIC__/img/photo.gif' : $data['details_picture1'] ?>">
+                        <input type="button" style="width:6%;margin-top: 70px" class="btn btn-sm file" id="file" value="选择文件"/>
+                        <input id="uploadFile1" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" value="{$data['picture_url']}" name="details_picture1" >
+                        <img style="float:left;margin:10px" width='150px' height='100px' src="<?= empty($data['details_picture2']) ? '__PUBLIC__/img/photo.gif' : $data['details_picture2'] ?>">
+                        <input type="button" style="width:6%;margin-top: 70px" class="btn btn-sm file" id="file" value="选择文件"/>
+                        <input id="uploadFile2" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" value="{$data['picture_url']}" name="details_picture2" >
+                        <img style="float:left;margin:10px" width='150px' height='100px' src="<?= empty($data['details_picture3']) ? '__PUBLIC__/img/photo.gif' : $data['details_picture3'] ?>">
+                        <input type="button" style="width:6%;margin-top: 70px" class="btn btn-sm file" id="file" value="选择文件"/>
+                        <input id="uploadFile3" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" value="{$data['picture_url']}" name="details_picture3" >
+                        <img style="float:left;margin:10px" width='150px' height='100px' src="<?= empty($data['details_picture4']) ? ' __PUBLIC__/img/photo.gif' : $data['details_picture4'] ?>">
+                        <input type="button" style="width:6%;margin-top: 70px" class="btn btn-sm file" id="file" value="选择文件"/>
+                        <input id="uploadFile4" type="file" style="display: none;" name="photo" />
+                        <input id="filePath" type="hidden" value="{$data['picture_url']}" name="details_picture4" >
+                    </td>
+                </tr>                
+                <tr>
+                    <td>标题：</td>
+                    <td >
+                        <input name="headline" type="text" value="{$data['headline']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>存货：</td>
+                    <td >
+                        <input name="stock" type="text" value="{$data['stock']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td>剩余：</td>
+                    <td >
+                        <label name="rest">{$data['rest']}</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>配置信息：</td>
+                    <td> 
+                       <input name="conf_infor" type="text" value="{$data['conf_infor']}">
+                     </td>
+                </tr>
+                <tr>
+                    <td>收费方式：</td>
+                    <td>
+                        <div>
+                            <div id="priceWay">
+                                <volist name="g_price" id="da">
+                                    <div class="clearfix">
+                                        <span style="float: left;">天数：</span>
+                                        <input style="width:50px;height:25px;float: left;margin-top:7px;" name="time" type="text" value="{$da['time']}">
+                                        <span style="float: left;">天</span>
+                                        <span style="float: left;">价格：</span>
+                                        <input style="width:50px;height:25px;float: left;margin-top:7px;" name="price" type="text" value="{$da['price']}">
+                                        <span style="float: left;">元</span>
+                                        <input id="del" style="float: left;width:18px;height:5px;margin-top: 17px" class="btn btn-xs btn-danger" type="button">
+                                    </div>
+                                </volist>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="button" class="btn btn-primary btn-xs" value="增加一行" id="addColumn" style ="width:80px">
+                                        <input type="button" class="btn btn-primary btn-xs" value="更改" id="charge" style="width:80px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>                                 
+                    </td>
+                </tr> 
+                <tr>
+                    <td>简介：</td> <td ><input name="abstract" type="text" value="{$data['abstract']}"></td>
+                </tr> 
+                <tr>
+                    <td>购买价格：</td>
+                    <td >
+                        <input name="price" type="text" value="{$data['price']}">
+                    </td>
+                </tr> 
+               <tr>
+                    <td>视频地址：</td>
+                    <td >
+                        <input name="video" type="text" value="{$data['video']}">
+                    </td>
+                </tr> 
+                <tr>
+                    <td>押金：</td>
+                    <td >
+                        <input name="ps_price" type="text" value="{$data['ps_price']}">
+                    </td>
+                </tr> 
+                <tr>
+                    <td>配送费：</td>
+                    <td >
+                        <input name="delivery" type="text" value="{$data['delivery']}">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" onclick="return check(this.form)" value="提交" 
+                    style=" border:none;background-color:#0066FF; color:#ffffff; width:100px; text-align:center; height:40px; line-height:37px;" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $('.file').click(function() {
+      $(this).next().click();
+    })
+    $('#uploadFile1').fileupload({
+        url: '{:U("index/upload")}',
+        dataType: 'json',
+        done: function(e,data) {
+            $(this).prev().prev().attr('src',data.result);
+            $(this).next().val(data.result);
+        }
+    })
+    $('#uploadFile2').fileupload({
+        url: '{:U("index/upload")}',
+        dataType: 'json',
+        done: function(e,data) {
+            $(this).prev().prev().attr('src',data.result);
+            $(this).next().val(data.result);
+        }
+    })
+    $('#uploadFile3').fileupload({
+        url: '{:U("index/upload")}',
+        dataType: 'json',
+        done: function(e,data) {
+            $(this).prev().prev().attr('src',data.result);
+            $(this).next().val(data.result);
+        }
+    })
+    $('#uploadFile4').fileupload({
+        url: '{:U("index/upload")}',
+        dataType: 'json',
+        done: function(e,data) {
+            $(this).prev().prev().attr('src',data.result);
+            $(this).next().val(data.result);
+        }
+    })
+    function check(form) {
+        if(form.name.value=='') {
+            alert("请输入商品名!");
+            form.name.focus();
+            return false;
+          }
+        if(form.headline.value=='') {
+            alert("请输入标题!");
+            form.headline.focus();
+            return false;
+        }
+        if(form.conf_infor.value=='') {
+            alert("请输入配置信息!"); 
+            form.conf_infor.focus();
+            return false;
+        }
+        if(form.abstract.value=='') {
+            alert("请输入简介!");
+            form.abstract.focus();
+            return false;
+        }
+        if(form.video.value != '') {
+            var reg = /^http:\/\/[a-zA-Z0-9]+\.[a-zA-Z0-9]+[\/=\?%\-&_~`@[\]\':+!]*([^<>\"\"])*$/;
+            if(reg.exec(form.video.value) == null) {
+                alert('请输入正确的视频链接地址');
+                return false;
+            } 
+        }
+        return true;
+    }
+    $('#addColumn').on('click', function() {
+        var append = "<div class='clearfix'>"
+                   + "<span style='float: left;'>天数：</span>"
+                   + "<input style='width:50px;height:25px;float: left;margin-top:7px;' name='time' type='text' value=''>"
+                   + "<span style='float: left;'>天</span>"
+                   + "<span style='float: left;'>价格：</span>"
+                   + "<input style='width:50px;height:25px;float: left;margin-top:7px;' name='price' type='text' value=''>"
+                   + "<span style='float: left;'>元</span>"
+                   + "<input id='del' style='float: left;width:18px;height:5px;margin-top: 17px' class='btn btn-xs btn-danger' type='button'>"
+                   + "</div>";
+        $('#priceWay').append(append); 
+    })
+    $('body').on('click', '#del', function() {
+        $(this).parents('.clearfix').remove();
+    })
+    $('#charge').on('click', function() {
+        // var priceWay = $('#priceWay');
+        var priceWay = new Array;
+        $('.clearfix').each(function() {
+            var time = $(this).find('[name="time"]').val();
+            var price = $(this).find('[name="price"]').val();
+            var data = {
+                'time': time,
+                'price': price
+            }
+            priceWay.push(data);
+        });
+        priceWay = JSON.stringify(priceWay);
+        $.ajax({
+            url: "{:U('index/g_price')}",
+            type: "post",
+            dataType: "json",
+            data: {data:priceWay,goods_id:$('[name="id"]').val()},
+            complete: function() {
+                alert('更改成功');
+            }
+        })
+    })
+</script>
+
+
+
+
+

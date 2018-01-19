@@ -1,0 +1,196 @@
+﻿html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.tc{
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.col-md-4, .col-sm-4 , .col-xs-4{
+			width: 33.333333333333333333333333333%;
+	        position: relative;
+		    min-height: 1px;
+		    padding-right: 15px;
+		    float: left;
+		    padding-left: 15px;
+		    text-align: center;
+		}
+.header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+}
+.text-phone{
+	text-align: center;
+	font-size: .28rem;
+	color: #fff;
+	display: block;
+}
+.icon{
+	left: 4%;
+	top: -22%;
+}
+.icon img{
+	width: 100%;
+}
+.over{
+	left: 86%;
+	top: 30%;
+	font-size: .28rem;
+	color: #fff;
+}
+.main{
+	height: 11.75rem;
+	width: 100%;
+	background: #323232;
+	padding: 0 5% 0 5%;
+}
+.main-one{
+	height: 1.1rem;
+	width: 100%;
+	font-size: .3rem;
+	color: #fff;
+	line-height: 1.1rem;
+}
+.main-one .fr{
+	height: .9rem;
+	width: .9rem;
+	overflow: hidden;
+	margin-top: .1rem;
+	}
+.main-one .fr img{
+	width:100%;
+	}
+.long-line{
+	width: 95%;
+	height: 1px;
+	background: #3c3c3c;
+	margin-left: 2%;
+}
+.main-two{
+	height: .9rem;
+	width: 100%;
+	font-size: .3rem;
+	color: #fff;
+	line-height: .9rem;
+}
+input,select{
+	font-size: .3rem!important;
+}
+.header span{
+	color:white;
+	font-size: 0.3rem;
+	width:2rem;
+	height:1rem;
+	line-height: 1rem;
+	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 5;
+	margin-left: 2.6rem;
+}
+.discount{
+	width: 100%;
+    height: 2.5rem;
+    float: left;
+    background: url("../img/beijing.png")no-repeat;
+    background-size: cover;
+    margin-top: 0.3rem;
+
+}
+.discount-top{
+	width: 95%;
+    height: 1.5rem;
+    float: left;
+    margin-left: 0.16rem;
+    margin-top: 0.2rem;
+}
+.discount-top img{
+	width:100%;
+	height:1.5rem;
+}
+.discount-top-text{
+	width: 100%;
+    height: 1rem;
+    position: relative;
+    z-index: 7;
+    margin-top: -1.5rem;
+}
+.text1{
+	width: 2rem;
+    height: 0.7rem;
+    float: left;
+    text-align: center;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.7rem;
+    margin-left: 0.2rem;
+    margin-top: 0.15rem;
+}
+.text2{
+	width: 1.5rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: red;
+    float: right;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 0.25rem;
+    margin-top: 0.32rem;
+    margin-right: 0.1rem;
+}
+.fengge img{
+	width: 94%;
+    height: 0.2rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.time{
+	width: 3rem;
+    height: 0.4rem;
+    float: left;
+    font-size: 0.2rem;
+    color: #A8A8A8;
+    margin-left: 0.2rem;
+}

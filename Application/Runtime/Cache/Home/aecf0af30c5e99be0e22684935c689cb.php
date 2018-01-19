@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>直接继承OAuth2Controller就行

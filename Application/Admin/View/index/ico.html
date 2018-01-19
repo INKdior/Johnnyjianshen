@@ -1,0 +1,52 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">滚动广告banner</li>
+        </ul><!-- .breadcrumb -->
+    </div>
+    <div class="add_cp">
+        <form method="post"  action="{:U('index/add_banner')}" onsubmit="" id='subform'>
+            <input  class="btn btn-default btn-sm" type="submit" value="添加banner" /> 
+        </form>
+    </div>
+    <div class="table_con">
+        <table>
+            <tr class="tb_title">
+                <td width="5%">ID</td>
+                <td width="8%">名字</td>
+                <td width="8%">图</td>
+                <td width="20%">操作</td>
+            </tr>
+            <volist name="data" id="vo">
+            <tr>
+                <td width="5%">{$vo['id']}</td>
+
+                <td width="10%">{$vo['name']}</td>
+
+                <td width="10%"><img width='100px' height='100px'src="{$vo['imgurl']}"></td>
+
+                <td width="20%">
+                    <a  class="sj_btn" href="{:U('admin/index/details_banner',array('id'=>$vo['id']))}">修改</a>  
+                    <a  id="del" class="del_btn" href="javascript:" onclick=del("{:U('admin/index/delbanner',array('id'=>$vo['id']))}")>删除</a>
+                </td>
+            </tr>
+               </volist>
+        </table>
+       <div class="pagelist">{$page}</div>
+    </div>
+
+</div><!-- /.main-content -->
+<script>
+function del(url){
+if(confirm("确认删除吗")){
+   window.location.href=url; 
+  }
+}
+</script>

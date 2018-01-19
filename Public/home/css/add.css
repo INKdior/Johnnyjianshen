@@ -1,0 +1,105 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #323232;
+	overflow: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "微软雅黑";
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.tc{
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.container{
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 1.2rem;
+	line-height: 1rem;
+	font-size: .32rem;
+	color: #d4d3d3;
+	background: #000000;
+	padding:0 5% 0 5%;
+	line-height: 1.5rem;
+}
+.header img{
+	vertical-align: middle;
+	width: .16rem;
+}
+.header p{
+	width: 33.33333%;
+}
+.text{
+	font-size: .3rem;
+	color: #fff;
+	height: .7rem;
+	line-height: .7rem;
+	text-indent: 2em;
+}
+.input-group{
+	font-size: .3rem;
+	height: .9rem;
+	background: #000;
+	color: #a1a0a0;
+	text-indent: 2em;
+	line-height: .9rem;
+}
+.input-group input{
+	border: none;
+	background: #000;
+	color: #fff;
+	text-indent: 1em;
+	height: .8rem;
+	line-height: .6rem;	
+	font-size: .3rem;
+}
+.text1{
+	font-size: .3rem;
+	color: #fff;
+	height: .7rem;
+	line-height: .1rem;
+	text-indent: 2em;
+}
+input::-webkit-input-placeholder{
+
+    color: #ccc;
+
+    text-indent: 2px;
+
+    font-size: .3rem;
+
+}

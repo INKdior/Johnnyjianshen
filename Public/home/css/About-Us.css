@@ -1,0 +1,119 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+}
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.tc{
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.col-md-4, .col-sm-4 , .col-xs-4{
+			width: 33.333333333333333333333333333%;
+	        position: relative;
+		    min-height: 1px;
+		    padding-right: 15px;
+		    float: left;
+		    padding-left: 15px;
+		    text-align: center;
+		}
+.header{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+}
+.text-phone{
+	text-align: center;
+	font-size: .28rem;
+	color: #fff;
+	display: block;
+}
+.main{
+	height: 9.8rem;
+	width: 100%;
+	background: #323232;
+	padding: 0 5% 0 5%;
+}
+.icon{
+	left: 4%;
+	top: -22%;
+}
+.icon img{
+	width: 100%;
+	
+}
+.icon-1{
+	width: 100%;
+	overflow: hidden;
+}
+.icon-1 .icon-text{
+	text-align: center;
+	width: 3rem;
+	margin: 0 auto;
+	padding: .5rem;
+}
+.icon-1 .icon-text img{
+	width: 100%;
+	display: block;
+}
+.text-word{
+	font-size: .28rem;
+	color: #c7c7c7;
+	padding-bottom: .3rem;
+}
+.trik{
+	height: .2rem;
+	width: 140%;
+	background: #373737;
+	margin-left: -20%;
+}
+.long-line{
+	width: 95%;
+	height: 1px;
+	background: #3c3c3c;
+	margin-left: 2%;
+}
+.main-two{
+	height: .7rem;
+	width: 100%;
+	font-size: .28rem;
+	color: #c7c7c7;
+	line-height: .7rem;
+}

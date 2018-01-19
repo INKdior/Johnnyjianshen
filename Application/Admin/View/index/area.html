@@ -1,0 +1,59 @@
+
+
+<div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+              try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+          <ul class="breadcrumb">
+            <li>
+                <a href="{:U('admin/index/main')}">首页</a>
+            </li>
+            <li class="active">达康健身器材管理后台</li>
+          </ul><!-- .breadcrumb -->
+          </div>
+    <div class="table_con">
+        <form action="{:U('admin/index/update_area')}" method="post">
+          <table>
+              <tr class="tb_title">
+                  <td>思明</td>
+                  <td>湖里</td>
+                  <td>集美</td>
+                  <td>海沧</td>
+                  <td>翔安</td>
+                  <td>同安</td> 
+              </tr>
+              <tr>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="siming" type="checkbox" value="1"></td>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="huli" type="checkbox" value="1"></td>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="jimei" type="checkbox" value="1"></td>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="haicang" type="checkbox" value="1"></td>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="xiangan" type="checkbox" value="1"></td>
+                  <td style="position:relative;"><input style="width:85%;position: absolute;top: 4px;" name="tongan" type="checkbox" value="1"></td> 
+              </tr>
+          </table>
+          <div class="add_cp">
+            <input type="submit" class="btn btn-primary xs" value="更改">
+          </div>
+      </form>
+    </div>
+</div><!-- /.main-content -->
+<script type="text/javascript">
+    var data = '<?=json_encode($data)?>';
+    data = JSON.parse(data);
+    for(var i in data) {
+      if(data[i] == '1') {
+        $('[name="'+i+'"]').attr('checked','checked');
+      }
+    }
+</script>
+
+
+
+
+
+
+
+
+
